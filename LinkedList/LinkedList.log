@@ -1,0 +1,635 @@
+[main] DEBUG LinkedList  - Printing list of length 5:
+[main] DEBUG LinkedList  - abc ABC def ghi XYZ
+[main] DEBUG LinkedList  - Printing reversed list of length 5:
+[main] DEBUG LinkedList  - XYZ ghi def ABC abc
+[main] DEBUG LinkedList  - Printing list of length 4:
+[main] DEBUG LinkedList  - 0 22 95 45
+[main] DEBUG LinkedList  - Printing reversed list of length 4:
+[main] DEBUG LinkedList  - 45 95 22 0
+[main] DEBUG LinkedList  - Printing list of length 5:
+[main] DEBUG LinkedList  - abc ABC def ghi XYZ
+[main] DEBUG LinkedList  - Printing reversed list of length 5:
+[main] DEBUG LinkedList  - XYZ ghi def ABC abc
+[main] DEBUG LinkedList  - Printing list of length 4:
+[main] DEBUG LinkedList  - 0 22 95 45
+[main] DEBUG LinkedList  - Printing reversed list of length 4:
+[main] DEBUG LinkedList  - 45 95 22 0
+[main] DEBUG LinkedList  - Printing list of length 5:
+[main] DEBUG LinkedList  - abc ABC def ghi XYZ
+[main] DEBUG LinkedList  - Printing reversed list of length 5:
+[main] DEBUG LinkedList  - XYZ ghi def ABC abc
+[main] DEBUG LinkedList  - Printing list of length 5:
+[main] DEBUG LinkedList  - abc ABC def ghi XYZ
+[main] DEBUG LinkedList  - Printing reversed list of length 5:
+[main] DEBUG LinkedList  - XYZ ghi def ABC abc
+[main] DEBUG LinkedList  - Printing list of length 5:
+[main] DEBUG LinkedList  - abc ABC def ghi XYZ
+[main] DEBUG LinkedList  - Printing reversed list of length 5:
+[main] DEBUG LinkedList  - XYZ ghi def ABC abc
+[main] DEBUG LinkedList  - Printing list of length 4:
+[main] DEBUG LinkedList  - 0 222 95 45
+[main] DEBUG LinkedList  - Printing reversed list of length 4:
+[main] DEBUG LinkedList  - 45 95 222 0
+[main] DEBUG LinkedList  - Printing list of length 5:
+[main] DEBUG LinkedList  - abc ABC def ghi XYZ
+[main] DEBUG LinkedList  - Printing reversed list of length 5:
+[main] DEBUG LinkedList  - XYZ ghi def ABC abc
+[main] DEBUG LinkedList  - Printing list of length 4:
+[main] DEBUG LinkedList  - 0 222 95 45
+[main] DEBUG LinkedList  - Printing reversed list of length 4:
+[main] DEBUG LinkedList  - 45 95 222 0
+[Runner.main()] DEBUG LinkedList  - Printing list of length 5:
+[Runner.main()] DEBUG LinkedList  - abc ABC def ghi XYZ
+[Runner.main()] DEBUG LinkedList  - Printing reversed list of length 5:
+[Runner.main()] DEBUG LinkedList  - XYZ ghi def ABC abc
+[Runner.main()] DEBUG LinkedList  - Printing list of length 4:
+[Runner.main()] DEBUG LinkedList  - 0 222 95 45
+[Runner.main()] DEBUG LinkedList  - Printing reversed list of length 4:
+[Runner.main()] DEBUG LinkedList  - 45 95 222 0
+[Runner.main()] DEBUG LinkedList  - Printing list of length 5:
+[Runner.main()] DEBUG LinkedList  - abc ABC def ghi XYZ
+[Runner.main()] DEBUG LinkedList  - Printing reversed list of length 5:
+[Runner.main()] DEBUG LinkedList  - XYZ ghi def ABC abc
+[Runner.main()] DEBUG LinkedList  - Printing list of length 4:
+[Runner.main()] DEBUG LinkedList  - 0 222 95 45
+[Runner.main()] DEBUG LinkedList  - Printing reversed list of length 4:
+[Runner.main()] DEBUG LinkedList  - 45 95 222 0
+[Runner.main()] DEBUG LinkedList  - Printing list of length 5:
+[Runner.main()] DEBUG LinkedList  - abc ABC def ghi XYZ
+[Runner.main()] DEBUG LinkedList  - Printing reversed list of length 5:
+[Runner.main()] DEBUG LinkedList  - XYZ ghi def ABC abc
+[Runner.main()] DEBUG LinkedList  - Printing list of length 4:
+[Runner.main()] DEBUG LinkedList  - 0 222 95 45
+[Runner.main()] DEBUG LinkedList  - Printing reversed list of length 4:
+[Runner.main()] DEBUG LinkedList  - 45 95 222 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 5:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - abc ABC def ghi XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 5:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - XYZ ghi def ABC abc
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 45 95 222 0
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 5:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - abc ABC def ghi XYZ
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 5:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - XYZ ghi def ABC abc
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 5:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi XYZ
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 5:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi XYZ
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 45 95 222 0
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - abc ABC def ghi JKL XYZ
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - XYZ JKL ghi def ABC abc
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL XYZ
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL Zero
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 45 95 222 0
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - abc ABC def ghi JKL XYZ
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - XYZ JKL ghi def ABC abc
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL XYZ
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL Zero
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 45 95 222 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - abc ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - XYZ JKL ghi def ABC abc
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL Zero
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 45 95 222 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - abc ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - XYZ JKL ghi def ABC abc
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL Zero
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 45 95 222 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 5:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - abc ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - XYZ JKL ghi def ABC abc
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL Zero
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 45 95 222 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 5:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 222 95 45 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - abc ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - XYZ JKL ghi def ABC abc
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL Zero
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 45 95 222 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 222 95 45 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - abc ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - XYZ JKL ghi def ABC abc
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL XYZ
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Zero ABC def ghi JKL Zero
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 0 222 95 45
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 45 95 222 0
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[com.solvd.mylinkedlist.runner.Runner.main()] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - 222 95 45 0
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [abc, ABC, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [XYZ, JKL, ghi, def, ABC, abc]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, ABC, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, ABC, def, ghi, JKL, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222, 95, 45, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 7:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [ABC, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 7:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [XYZ, JKL, ghi, def, abc, ABC, ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 7:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, ABC, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 7:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, ABC, abc, def, ghi, JKL, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222, 95, 45, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 7:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null, ABC, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 7:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [nullXYZ, JKL, ghi, def, abc, ABC, ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 7:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [nullZero, ABC, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 7:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [nullZero, ABC, abc, def, ghi, JKL, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null222, 95, 45, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null, ABC, null, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [nullXYZ, JKL, ghi, def, abc, null, ABC, ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [nullZero, ABC, null, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [nullZero, ABC, null, abc, def, ghi, JKL, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null222, 95, 45, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null, ABC, null, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [nullXYZ, JKL, ghi, def, abc, null, ABC, ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [nullZero, ABC, null, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [nullZero, ABC, null, abc, def, ghi, JKL, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [null222, 95, 45, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, ABC, null, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [XYZ, JKL, ghi, def, abc, null, ABC, ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, ABC, null, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, ABC, null, abc, def, ghi, JKL, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222, 95, 45, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 9:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, ABC, null, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [XYZ, JKL, ghi, def, abc, null, ABC, ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, ABC, null, abc, def, ghi, JKL, XYZ]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, ABC, null, abc, def, ghi, JKL, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222, 95, 45, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222, 95, 45, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222, 95, 45, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 3:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 2:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 3:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 2:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 1:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 3:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 2:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 1:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 0:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - []
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 3:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 2:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 1:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 0:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - []
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 8:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 3:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 2:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 1:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 0:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - []
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Printing list of length 1:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [404]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 6 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 3 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 2 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 0 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - []
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [404]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 6 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 99 in list with 6 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -11 in list with 6 elements!
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 3 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 2 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 0 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - []
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [404]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 6 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 99 in list with 6 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -11 in list with 6 elements!
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 3 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 2 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 0 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - []
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -1 in list with 0 elements!
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [404]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 6 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 99 in list with 6 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -11 in list with 6 elements!
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 3 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 2 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 0 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - []
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -1 in list with 0 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 0 in list with 0 elements!
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [404]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 7 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 6 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, abc, def, ghi, JKL]
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 99 in list with 6 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -11 in list with 6 elements!
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [JKL, ghi, def, abc, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, JKL]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, abc, def, ghi, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 3 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 2 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 0 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - []
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -1 in list with 0 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 0 in list with 0 elements!
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [404]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 6 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [, null, null, abc, def, GHI]
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 99 in list with 6 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -11 in list with 6 elements!
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [α, , ABC, null, null, abc, def, GHI]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [GHI, def, abc, null, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, null, abc, def, GHI]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 8 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [Zero, , ABC, null, null, abc, def, Zero]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - Reversed list of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 4 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 3 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 2 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [222]
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 0 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - []
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -1 in list with 0 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 0 in list with 0 elements!
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - List of 1 elements:
+[main] DEBUG com.solvd.mylinkedlist.linkedlist.LinkedList  - [404]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - List of 6 elements
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [, null, null, abc, def, GHI]
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 99 in list with 6 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -11 in list with 6 elements!
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [α, , ABC, null, null, abc, def, GHI]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - Reversed list of 8 elements
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [GHI, def, abc, null, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [Zero, , ABC, null, null, abc, def, GHI]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [Zero, , ABC, null, null, abc, def, Zero]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - List of 4 elements
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - Reversed list of 4 elements
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [222]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - []
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -1 in list with 0 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 0 in list with 0 elements!
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [404]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - List of 6 elements
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [, null, null, abc, def, GHI]
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 99 in list with 6 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -11 in list with 6 elements!
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [α, , ABC, null, null, abc, def, GHI]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - Reversed list of 8 elements
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [GHI, def, abc, null, null, ABC, , α]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [Zero, , ABC, null, null, abc, def, GHI]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [Zero, , ABC, null, null, abc, def, Zero]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - List of 4 elements
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [0, 222, 95, 45]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - Reversed list of 4 elements
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [45, 95, 222, 0]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [0, 222, 45, 95]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [0, 222, 95]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [0, 222]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [222]
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - []
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index -1 in list with 0 elements!
+[main] ERROR com.solvd.mylinkedlist.runner.Runner  - java.lang.ArrayIndexOutOfBoundsException: Cannot access element with index 0 in list with 0 elements!
+[main] DEBUG com.solvd.mylinkedlist.runner.Runner  - [404]
