@@ -1,2 +1,2 @@
 # SolvdTACourseProjects
-Projects for TA Course Argentina 2021 @ Solvd, Inc.
+Projects for Test Automation Course Argentina 2021 @ Solvd, Inc.
