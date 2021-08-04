@@ -1,0 +1,281 @@
+[main] DEBUG com.solvd.booking.main.Runner  - firstName: Ana
+lastName: Kawasaki
+dateOfBirth: 1980-01-01
+country: Canada
+nationalID: null
+passportNumber: null
+[main] DEBUG com.solvd.booking.main.Runner  - firstName: Ana
+lastName: Kawasaki
+dateOfBirth: 1980-01-01
+country: Egypt
+nationalID: null
+passportNumber: null
+[main] DEBUG com.solvd.booking.main.Runner  - com.solvd.booking.reservationTarget.Hotel@16b4a017
+[main] DEBUG com.solvd.booking.main.Runner  - Weeeee
+[main] DEBUG com.solvd.booking.main.Runner  - firstName: Ana
+lastName: Kawasaki
+dateOfBirth: 1980-01-01
+country: Egypt
+nationalID: null
+passportNumber: null
+[main] DEBUG com.solvd.booking.main.Runner  - com.solvd.booking.reservationTarget.Hotel@16b4a017
+[main] DEBUG com.solvd.booking.main.Runner  - Weeeee
+[main] DEBUG com.solvd.booking.main.Runner  - firstName: Ana
+lastName: Kawasaki
+dateOfBirth: 1980-01-01
+country: Egypt
+nationalID: null
+passportNumber: null
+[main] DEBUG com.solvd.booking.main.Runner  - com.solvd.booking.reservationTarget.Hotel@3ada9e37
+[main] DEBUG com.solvd.booking.main.Runner  - Weeeee
+[main] DEBUG com.solvd.booking.main.Runner  - firstName: Ana
+lastName: Kawasaki
+dateOfBirth: 1980-01-01
+country: Egypt
+nationalID: null
+passportNumber: null
+[main] DEBUG com.solvd.booking.main.Runner  - com.solvd.booking.reservationTarget.Hotel@8807e25
+[main] DEBUG com.solvd.booking.main.Runner  - Weeeee
+[main] DEBUG com.solvd.booking.main.Runner  - firstName: Ana
+lastName: Kawasaki
+dateOfBirth: 1980-01-01
+country: Egypt
+nationalID: null
+passportNumber: null
+[main] DEBUG com.solvd.booking.main.Runner  - com.solvd.booking.reservationTarget.Hotel@16b4a017
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - 12345 - Transylvania added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - 12345 - Transylvania added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-07-02 to 2021-07-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania
+[main] DEBUG com.solvd.booking.main.Runner  - Weeeee
+[main] DEBUG com.solvd.booking.main.Runner  - firstName: Ana
+lastName: Kawasaki
+email: aka@wasaki.com
+dateOfBirth: 1980-01-01
+country: Egypt
+nationalID: null
+passportNumber: null
+[main] DEBUG com.solvd.booking.main.Runner  - com.solvd.booking.reservationTarget.Hotel@5b1d2887
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - 12345 - Transylvania added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.main.Runner  - Birth date cannot be in the future!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-07-02 to 2021-07-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania
+[main] DEBUG com.solvd.booking.main.Runner  - Weeeee
+[main] DEBUG com.solvd.booking.main.Runner  - firstName: Ana
+lastName: Kawasaki
+email: aka@wasaki.com
+dateOfBirth: 2980-01-01
+country: Egypt
+nationalID: null
+passportNumber: null
+[main] DEBUG com.solvd.booking.main.Runner  - com.solvd.booking.reservationTarget.Hotel@46f5f779
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - 12345 - Transylvania added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - 12345 - Transylvania added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - Reservation added!
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - 12345 - Transylvania added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - Reservation added!
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - Rating for Transylvania was updated to 7.0
+[main] DEBUG com.solvd.booking.reservationTarget.Property  - Passenger Ana reviewed Transylvania
+[main] ERROR com.solvd.booking.main.Runner  - error test
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - com.solvd.booking.myLinkedList.MyLinkedList$Node@e6ea0c6
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - com.solvd.booking.myLinkedList.MyLinkedList$Node@e6ea0c6
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  -  abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list, of length 1:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  -  abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list, length = 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  -  abc def ABC ghi
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list, length = 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  -  abc ABC def ghi
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversedlist, length = 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  -  ghi def ABC abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc ABC def ghi
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - ghi def ABC abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 6:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc ZZZ ABC def ghi XYZ
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 6:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - XYZ ghi def ABC ZZZ abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc ABC def ghi
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - ghi def ABC abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc ABC def ghi XYZ
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - XYZ ghi def ABC abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc ABC def ghi XYZ
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - XYZ ghi def ABC abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 3:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 0 22 45
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 3:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 45 22 0
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc ABC def ghi XYZ
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - XYZ ghi def ABC abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 0 22 45 95
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 95 45 22 0
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc ABC def ghi XYZ
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - XYZ ghi def ABC abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 0 22 95 45
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 45 95 22 0
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc ABC def ghi XYZ
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - XYZ ghi def ABC abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 0 22 95 45
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 45 95 22 0
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - abc ABC def ghi XYZ
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 5:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - XYZ ghi def ABC abc
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 0 22 95 45
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - Printing reversed list of length 4:
+[main] DEBUG com.solvd.booking.myLinkedList.MyLinkedList  - 45 95 22 0
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania
+[main] DEBUG com.solvd.booking.property.Property  - Reservation added!
+[main] DEBUG com.solvd.booking.property.Property  - Rating for Transylvania was updated to 7.0
+[main] DEBUG com.solvd.booking.property.Property  - Passenger Ana reviewed Transylvania
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania
+[main] DEBUG com.solvd.booking.property.Property  - Reservation added!
+[main] DEBUG com.solvd.booking.property.Property  - Rating for Transylvania was updated to 7.0
+[main] DEBUG com.solvd.booking.property.Property  - Passenger Ana reviewed Transylvania
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania Hotel added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania Hotel
+[main] DEBUG com.solvd.booking.property.Property  - Reservation added!
+[main] DEBUG com.solvd.booking.property.Property  - Rating for Transylvania Hotel was updated to 7.0
+[main] DEBUG com.solvd.booking.property.Property  - Passenger Ana reviewed Transylvania Hotel
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania Hotel added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania Hotel
+[main] DEBUG com.solvd.booking.property.Property  - Reservation added!
+[main] DEBUG com.solvd.booking.property.Property  - Rating for Transylvania Hotel was updated to 7.0
+[main] DEBUG com.solvd.booking.property.Property  - Passenger Ana reviewed Transylvania Hotel
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania Hotel added to Isolation Vacation Inc.
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania Hotel
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.property.Property  - Reservation added!
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.property.Property  - Rating for Transylvania Hotel was updated to 7.0
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.property.Property  - Passenger Ana reviewed Transylvania Hotel
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania Hotel added to Isolation Vacation Inc.
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.company.BookingCompany  - Available properties in Toronto from 2021-11-02 to 2021-11-10:
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania Hotel
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.property.Property  - Reservation added!
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.property.Property  - Rating for Transylvania Hotel was updated to 7.0
+[com.solvd.booking.main.Runner.main()] DEBUG com.solvd.booking.property.Property  - Passenger Ana reviewed Transylvania Hotel
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania Hotel added to Isolation Vacation Inc.
+[main] ERROR com.solvd.booking.main.Runner  - com.solvd.booking.user.IncorrectBirthDateException: You're not an adult yet! Enjoy your youth :)
+[main] DEBUG com.solvd.booking.company.BookingCompany  - These properties meet the criteria:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania Hotel
+[main] DEBUG com.solvd.booking.property.Property  - Reservation added!
+[main] DEBUG com.solvd.booking.main.Runner  - Reservation status is APPROVED
+[main] DEBUG com.solvd.booking.property.Property  - Rating for Transylvania Hotel was updated to 7.0
+[main] DEBUG com.solvd.booking.property.Property  - Passenger Ana reviewed Transylvania Hotel
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania Hotel added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - These properties meet the criteria:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania Hotel
+[main] DEBUG com.solvd.booking.property.Property  - Reservation added!
+[main] DEBUG com.solvd.booking.main.Runner  - Reservation status is APPROVED
+[main] DEBUG com.solvd.booking.property.Property  - Rating for Transylvania Hotel was updated to 7.0
+[main] DEBUG com.solvd.booking.property.Property  - Passenger Ana reviewed Transylvania Hotel
+[main] DEBUG com.solvd.booking.user.Partner  - Partner Mike Wazowski - mike@minc.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.property.Property  - 12345 - Transylvania Hotel added to Isolation Vacation Inc.
+[main] DEBUG com.solvd.booking.user.Passenger  - Passenger Ana Kawasaki - aka@wasaki.com was registered
+ Welcome!
+[main] DEBUG com.solvd.booking.company.BookingCompany  - These properties meet the criteria:
+[main] DEBUG com.solvd.booking.company.BookingCompany  - Transylvania Hotel
+[main] DEBUG com.solvd.booking.property.Property  - Reservation added!
+[main] DEBUG com.solvd.booking.main.Runner  - Reservation status is APPROVED
+[main] DEBUG com.solvd.booking.property.Property  - Rating for Transylvania Hotel was updated to 7.0
+[main] DEBUG com.solvd.booking.property.Property  - Passenger Ana reviewed Transylvania Hotel

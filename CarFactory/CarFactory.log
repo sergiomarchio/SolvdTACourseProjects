@@ -1,0 +1,21 @@
+[main] ERROR com.solvd.carfactory.connectionpool.ConnectionPool  - Error getting database connection from 52.59.193.212:3306
+java.sql.SQLException: No suitable driver found for jdbc:mysql:52.59.193.212:3306
+[main] ERROR com.solvd.carfactory.main.Runner  - java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+[main] ERROR com.solvd.carfactory.connectionpool.ConnectionPool  - Error getting database connection from 52.59.193.212:3306
+java.sql.SQLException: No suitable driver found for jdbc:mysql:52.59.193.212:3306
+[main] ERROR com.solvd.carfactory.connectionpool.ConnectionPool  - Error getting database connection from 52.59.193.212:3306
+java.sql.SQLException: No suitable driver found for jdbc:mysql:52.59.193.212:3306
+[main] ERROR com.solvd.carfactory.connectionpool.ConnectionPool  - Error getting database connection from 52.59.193.212:3306
+java.sql.SQLException: No suitable driver found for jdbc:mysql:52.59.193.212:3306
+[main] ERROR com.solvd.carfactory.connectionpool.ConnectionPool  - Error getting database connection from 52.59.193.212:3306
+java.sql.SQLException: No suitable driver found for jdbc:mysql:52.59.193.212:3306
+[main] ERROR com.solvd.carfactory.dao.country.CountryDAO  - java.sql.SQLException: No database selected
+[main] DEBUG com.solvd.carfactory.main.Runner  - 
+[main] ERROR com.solvd.carfactory.dao.country.CountryDAO  - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM countries WHERE id = 1' at line 1
+[main] DEBUG com.solvd.carfactory.main.Runner  - 
+[main] DEBUG com.solvd.carfactory.main.Runner  - com.solvd.carfactory.location.Country@34f7cfd9
+[main] ERROR com.solvd.carfactory.dao.country.CountryDAO  - java.sql.SQLException: No database selected
+[main] ERROR com.solvd.carfactory.dao.country.CountryDAO  - java.sql.SQLException: No database selected
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China

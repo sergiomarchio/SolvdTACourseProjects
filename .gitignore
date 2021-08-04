@@ -1,4 +1,4 @@
-# Maven ignores
+# Maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -11,7 +11,13 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-# IntelliJ idea ignores
+# IntelliJ Idea
 .idea/
 out/
 *.iml
+
+# MySQL Workbench
+*.bak
+
+# Other
+_old_projects/
