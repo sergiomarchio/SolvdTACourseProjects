@@ -25,6 +25,7 @@ public class CityDAO extends AbstractMysqlJdbcDAO implements ICityDAO {
 
             long id;
             try (ResultSet rs = ps.getGeneratedKeys()) {
+                rs.next();
                 id = rs.getLong(1);
             }
             city.setId(id);

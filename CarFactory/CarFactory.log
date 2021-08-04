@@ -19,3 +19,22 @@ java.sql.SQLException: No suitable driver found for jdbc:mysql:52.59.193.212:330
 [main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
 [main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
 [main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.CountryDAO  - java.sql.SQLException: Before start of result set
+[main] DEBUG com.solvd.carfactory.main.Runner  - id: 0 Name: japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.CountryDAO  - Error creating item:
+java.sql.SQLException: Before start of result set
+[main] DEBUG com.solvd.carfactory.main.Runner  - id: 0 Name: japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
+[main] DEBUG com.solvd.carfactory.main.Runner  - id: 6 Name: japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 7 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 7 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country from db: China
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 8 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 8 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 8 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item.
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.CountryDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.

@@ -25,11 +25,14 @@ public class CountryDAO extends AbstractMysqlJdbcDAO implements ICountryDAO {
 
             long id;
             try(ResultSet rs = ps.getGeneratedKeys()){
+                rs.next();
                 id = rs.getLong(1);
             }
             country.setId(id);
         } catch (SQLException e) {
-            LOGGER.error(e);
+            LOGGER.error("Error creating item:\n" + e);
+        } finally {
+            ConnectionPool.getInstance().returnConnection(connection);
         }
     }
 
@@ -45,7 +48,9 @@ public class CountryDAO extends AbstractMysqlJdbcDAO implements ICountryDAO {
                 return buildCountry(rs);
             }
         } catch (SQLException e) {
-            LOGGER.error(e);
+            LOGGER.error("Error reading item:\n" + e);
+        } finally {
+            ConnectionPool.getInstance().returnConnection(connection);
         }
 
         return null;
@@ -60,7 +65,9 @@ public class CountryDAO extends AbstractMysqlJdbcDAO implements ICountryDAO {
             ps.setLong(2, country.getId());
             ps.executeUpdate();
         } catch (SQLException e) {
-            LOGGER.error(e);
+            LOGGER.error("Error updating item:\n" + e);
+        } finally {
+            ConnectionPool.getInstance().returnConnection(connection);
         }
     }
 
@@ -72,7 +79,9 @@ public class CountryDAO extends AbstractMysqlJdbcDAO implements ICountryDAO {
             ps.setLong(1, id);
             ps.executeUpdate();
         } catch (SQLException e) {
-            LOGGER.error(e);
+            LOGGER.error("Error deleting item:\n" + e);
+        } finally {
+            ConnectionPool.getInstance().returnConnection(connection);
         }
     }
 
