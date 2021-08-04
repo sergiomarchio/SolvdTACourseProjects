@@ -13,7 +13,7 @@ public class Runner {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
-            LOGGER.error("Error loading mysql driver class: " + e);
+            LOGGER.error("Error loading mysql driver class: \n" + e);
         }
 
         ConnectionPool pool = ConnectionPool.init(5,

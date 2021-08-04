@@ -8,7 +8,6 @@ import com.solvd.carfactory.models.location.Address;
 import com.solvd.carfactory.services.IAddressService;
 
 public class AddressService implements IAddressService {
-
     private IAddressDAO addressDAO = new AddressDAO();
     private ICityDAO cityDAO = new CityDAO();
 

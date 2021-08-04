@@ -3,6 +3,7 @@ package com.solvd.carfactory.dao.mysql.jdbc;
 import com.solvd.carfactory.connectionpool.ConnectionPool;
 import com.solvd.carfactory.dao.ICityDAO;
 import com.solvd.carfactory.models.location.City;
+import com.solvd.carfactory.models.location.Country;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;
@@ -27,15 +28,7 @@ public class CityDAO extends AbstractMysqlJdbcDAO implements ICityDAO {
 
             try(ResultSet rs = ps.executeQuery()){
                 rs.next();
-                City c = new City();
-
-                c.setId(rs.getLong("id"));
-                c.setName(rs.getString("name"));
-
-                long countryId = rs.getLong("country_id");
-                c.setCountry(new CountryDAO().getItemById(countryId));
-
-                return c;
+                return buildCity(rs);
             }
         } catch (SQLException e) {
             LOGGER.error(e);
@@ -50,5 +43,17 @@ public class CityDAO extends AbstractMysqlJdbcDAO implements ICityDAO {
     @Override
     public void deleteItem(long id) {
 
+    }
+
+    private City buildCity(ResultSet rs) throws SQLException{
+        City c = new City();
+
+        c.setId(rs.getLong("id"));
+        c.setName(rs.getString("name"));
+
+        Country country = new Country(rs.getLong("country_id"));
+        c.setCountry(country);
+
+        return c;
     }
 }

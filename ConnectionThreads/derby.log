@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Wed Aug 04 00:39:50 ART 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017b-0f3e-f7c1-00000b400000 
+on database directory memory:C:\Users\serg\IdeaProjects\HomeworkConnectionThreads\test_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Users/serg/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=16.0.1+9-24
+user.dir=C:\Users\serg\IdeaProjects\HomeworkConnectionThreads
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Aug 04 00:39:52 ART 2021: Shutting down Derby engine
+----------------------------------------------------------------
+Wed Aug 04 00:39:52 ART 2021:
+Shutting down instance a816c00e-017b-0f3e-f7c1-00000b400000 on database directory memory:C:\Users\serg\IdeaProjects\HomeworkConnectionThreads\test_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
+----------------------------------------------------------------
