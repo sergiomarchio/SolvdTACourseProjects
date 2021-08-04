@@ -7,6 +7,9 @@ public class City {
 
     public City() {
     }
+    public City(long id){
+        this.id = id;
+    }
     public City(long id, String name, Country country) {
         this.id = id;
         this.name = name;

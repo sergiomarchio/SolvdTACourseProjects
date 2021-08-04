@@ -10,6 +10,9 @@ public class Address {
 
     public Address() {
     }
+    public Address(long id) {
+        this.id = id;
+    }
     public Address(long id, String street, String number, String zipCode, City city) {
         this.id = id;
         this.street = street;

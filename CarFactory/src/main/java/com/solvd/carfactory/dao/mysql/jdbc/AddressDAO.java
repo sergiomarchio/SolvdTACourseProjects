@@ -3,6 +3,7 @@ package com.solvd.carfactory.dao.mysql.jdbc;
 import com.solvd.carfactory.connectionpool.ConnectionPool;
 import com.solvd.carfactory.dao.IAddressDAO;
 import com.solvd.carfactory.models.location.Address;
+import com.solvd.carfactory.models.location.City;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;
@@ -27,18 +28,7 @@ public class AddressDAO extends AbstractMysqlJdbcDAO implements IAddressDAO {
 
             try(ResultSet rs = ps.executeQuery()){
                 rs.next();
-                Address a = new Address();
-
-                a.setId(rs.getLong("id"));
-                a.setStreet(rs.getString("street"));
-                a.setNumber(rs.getString("number"));
-                a.setDeptNumber(rs.getString("dept_number"));
-                a.setZipCode(rs.getString("zip_code"));
-
-                long cityId = rs.getLong("city_id");
-                a.setCity(new CityDAO().getItemById(cityId));
-
-                return a;
+                return buildAddress(rs);
             }
         } catch (SQLException e) {
             LOGGER.error(e);
@@ -53,5 +43,20 @@ public class AddressDAO extends AbstractMysqlJdbcDAO implements IAddressDAO {
     @Override
     public void deleteItem(long id) {
 
+    }
+
+    private Address buildAddress(ResultSet rs) throws SQLException{
+        Address a = new Address();
+
+        a.setId(rs.getLong("id"));
+        a.setStreet(rs.getString("street"));
+        a.setNumber(rs.getString("number"));
+        a.setDeptNumber(rs.getString("dept_number"));
+        a.setZipCode(rs.getString("zip_code"));
+
+        City city = new City(rs.getLong("city_id"));
+        a.setCity(city);
+
+        return a;
     }
 }
