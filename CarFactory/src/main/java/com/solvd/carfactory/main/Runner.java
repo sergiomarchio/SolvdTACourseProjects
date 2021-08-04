@@ -1,8 +1,8 @@
 package com.solvd.carfactory.main;
 
 import com.solvd.carfactory.connectionpool.ConnectionPool;
-import com.solvd.carfactory.dao.country.CountryDAO;
-import com.solvd.carfactory.location.Country;
+import com.solvd.carfactory.dao.mysql.jdbc.CountryDAO;
+import com.solvd.carfactory.models.location.Country;
 import org.apache.log4j.Logger;
 
 public class Runner {
