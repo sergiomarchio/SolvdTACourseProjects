@@ -84,7 +84,7 @@ public class AddressDAO extends AbstractMysqlJdbcDAO implements IAddressDAO {
 
     @Override
     public void deleteItem(long id) {
-        deleteItemQuery(id, DELETE_ADDRESS);
+        deleteItem(id, DELETE_ADDRESS);
     }
 
     private Address buildAddress(ResultSet rs) throws SQLException{

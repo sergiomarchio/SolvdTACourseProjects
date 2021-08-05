@@ -76,7 +76,7 @@ public class CityDAO extends AbstractMysqlJdbcDAO implements ICityDAO {
 
     @Override
     public void deleteItem(long id) {
-        deleteItemQuery(id, DELETE_CITY);
+        deleteItem(id, DELETE_CITY);
     }
 
     private City buildCity(ResultSet rs) throws SQLException {

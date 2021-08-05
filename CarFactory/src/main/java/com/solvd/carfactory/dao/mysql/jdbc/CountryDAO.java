@@ -38,22 +38,7 @@ public class CountryDAO extends AbstractMysqlJdbcDAO implements ICountryDAO {
 
     @Override
     public Country getItemById(long id) {
-        Connection connection = ConnectionPool.getInstance().getConnection();
-
-        try(PreparedStatement ps = connection.prepareStatement(GET_COUNTRY_BY_ID)) {
-            ps.setLong(1, id);
-
-            try(ResultSet rs = ps.executeQuery()){
-                rs.next();
-                return buildCountry(rs);
-            }
-        } catch (SQLException e) {
-            LOGGER.error("Error reading item:\n" + e);
-        } finally {
-            ConnectionPool.getInstance().returnConnection(connection);
-        }
-
-        return null;
+        return getItemById(id, GET_COUNTRY_BY_ID, this::buildCountry);
     }
 
     @Override
@@ -73,7 +58,7 @@ public class CountryDAO extends AbstractMysqlJdbcDAO implements ICountryDAO {
 
     @Override
     public void deleteItem(long id) {
-        deleteItemQuery(id, DELETE_COUNTRY);
+        deleteItem(id, DELETE_COUNTRY);
     }
 
     private Country buildCountry(ResultSet rs) throws SQLException{
