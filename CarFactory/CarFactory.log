@@ -75,3 +75,10 @@ java.sql.SQLException: Illegal operation on empty result set.
 [main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
 java.sql.SQLException: Illegal operation on empty result set.
 [main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 15 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 15 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 15 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 15 Name: Japan
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England

@@ -7,12 +7,13 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.function.Function;
 
-public abstract class AbstractMysqlJdbcDAO {
+public abstract class AbstractMysqlJdbcDAO<T> {
     private final static Logger LOGGER = Logger.getLogger(AbstractMysqlJdbcDAO.class);
 
-    protected<T> T getItemById(long id, String query, IBuildItem<T> itemBuilder){
+    protected abstract T buildItem(ResultSet rs) throws SQLException;
+
+    protected T getItemById(long id, String query){
         Connection connection = ConnectionPool.getInstance().getConnection();
 
         try(PreparedStatement ps = connection.prepareStatement(query)) {
@@ -20,7 +21,7 @@ public abstract class AbstractMysqlJdbcDAO {
 
             try(ResultSet rs = ps.executeQuery()){
                 rs.next();
-                return itemBuilder.buildItem(rs);
+                return buildItem(rs);
             }
         } catch (SQLException e) {
             LOGGER.error("Error reading item:\n" + e);

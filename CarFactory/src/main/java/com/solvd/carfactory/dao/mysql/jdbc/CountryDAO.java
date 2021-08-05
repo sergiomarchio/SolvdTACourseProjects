@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 
 import java.sql.*;
 
-public class CountryDAO extends AbstractMysqlJdbcDAO implements ICountryDAO {
+public class CountryDAO extends AbstractMysqlJdbcDAO<Country> implements ICountryDAO {
     private final static Logger LOGGER = Logger.getLogger(CountryDAO.class);
     private final static String CREATE_COUNTRY_FROM_OBJECT = "INSERT INTO countries(name) VALUES (?)";
     private final static String GET_COUNTRY_BY_ID = "SELECT * FROM countries WHERE id = ?";
@@ -38,7 +38,7 @@ public class CountryDAO extends AbstractMysqlJdbcDAO implements ICountryDAO {
 
     @Override
     public Country getItemById(long id) {
-        return getItemById(id, GET_COUNTRY_BY_ID, this::buildCountry);
+        return getItemById(id, GET_COUNTRY_BY_ID);
     }
 
     @Override
@@ -61,7 +61,8 @@ public class CountryDAO extends AbstractMysqlJdbcDAO implements ICountryDAO {
         deleteItem(id, DELETE_COUNTRY);
     }
 
-    private Country buildCountry(ResultSet rs) throws SQLException{
+    @Override
+    protected Country buildItem(ResultSet rs) throws SQLException{
         Country c = new Country();
         c.setId(rs.getLong("id"));
         c.setName(rs.getString("name"));
