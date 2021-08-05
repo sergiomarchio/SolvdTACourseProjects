@@ -1,6 +1,5 @@
 package com.solvd.carfactory.dao.mysql.jdbc;
 
-import com.solvd.carfactory.connectionpool.ConnectionPool;
 import com.solvd.carfactory.dao.IAddressDAO;
 import com.solvd.carfactory.models.location.Address;
 import com.solvd.carfactory.models.location.City;
@@ -19,28 +18,7 @@ public class AddressDAO extends AbstractMysqlJdbcDAO<Address> implements IAddres
 
     @Override
     public void createItem(Address item) {
-        Connection connection = ConnectionPool.getInstance().getConnection();
-
-        try (PreparedStatement ps = connection.prepareStatement(CREATE_ADDRESS_FROM_OBJECT,
-                Statement.RETURN_GENERATED_KEYS)) {
-            ps.setString(1, item.getStreet());
-            ps.setString(2, item.getNumber());
-            ps.setString(3, item.getDeptNumber());
-            ps.setString(4, item.getZipCode());
-            ps.setLong(5, item.getCity().getId());
-            ps.executeQuery();
-
-            long id;
-            try (ResultSet rs = ps.getGeneratedKeys()) {
-                rs.next();
-                id = rs.getLong(1);
-            }
-            item.setId(id);
-        } catch (SQLException e) {
-            LOGGER.error(e);
-        } finally {
-            ConnectionPool.getInstance().returnConnection(connection);
-        }
+        item.setId(createItem(item, CREATE_ADDRESS_FROM_OBJECT));
     }
 
     @Override
@@ -50,21 +28,7 @@ public class AddressDAO extends AbstractMysqlJdbcDAO<Address> implements IAddres
 
     @Override
     public void updateItem(Address item) {
-        Connection connection = ConnectionPool.getInstance().getConnection();
-
-        try(PreparedStatement ps = connection.prepareStatement(UPDATE_ADDRESS)){
-            ps.setString(1, item.getStreet());
-            ps.setString(2, item.getNumber());
-            ps.setString(3, item.getDeptNumber());
-            ps.setString(4, item.getZipCode());
-            ps.setLong(5, item.getCity().getId());
-            ps.setLong(6, item.getId());
-            ps.executeUpdate();
-        } catch (SQLException e) {
-            LOGGER.error("Error updating item:\n" + e);
-        } finally {
-            ConnectionPool.getInstance().returnConnection(connection);
-        }
+        updateItem(item, UPDATE_ADDRESS, item.getId());
     }
 
     @Override
@@ -86,5 +50,14 @@ public class AddressDAO extends AbstractMysqlJdbcDAO<Address> implements IAddres
         a.setCity(city);
 
         return a;
+    }
+
+    @Override
+    protected void setPsParameters(Address item, PreparedStatement ps) throws SQLException {
+        ps.setString(1, item.getStreet());
+        ps.setString(2, item.getNumber());
+        ps.setString(3, item.getDeptNumber());
+        ps.setString(4, item.getZipCode());
+        ps.setLong(5, item.getCity().getId());
     }
 }

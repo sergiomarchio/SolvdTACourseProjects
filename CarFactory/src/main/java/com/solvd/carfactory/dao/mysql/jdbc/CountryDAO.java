@@ -1,6 +1,5 @@
 package com.solvd.carfactory.dao.mysql.jdbc;
 
-import com.solvd.carfactory.connectionpool.ConnectionPool;
 import com.solvd.carfactory.dao.ICountryDAO;
 import com.solvd.carfactory.models.location.Country;
 import org.apache.log4j.Logger;
@@ -16,24 +15,7 @@ public class CountryDAO extends AbstractMysqlJdbcDAO<Country> implements ICountr
 
     @Override
     public void createItem(Country item) {
-        Connection connection = ConnectionPool.getInstance().getConnection();
-
-        try(PreparedStatement ps = connection.prepareStatement(CREATE_COUNTRY_FROM_OBJECT,
-                Statement.RETURN_GENERATED_KEYS)){
-            ps.setString(1, item.getName());
-            ps.executeUpdate();
-
-            long id;
-            try(ResultSet rs = ps.getGeneratedKeys()){
-                rs.next();
-                id = rs.getLong(1);
-            }
-            item.setId(id);
-        } catch (SQLException e) {
-            LOGGER.error("Error creating item:\n" + e);
-        } finally {
-            ConnectionPool.getInstance().returnConnection(connection);
-        }
+        item.setId(createItem(item, CREATE_COUNTRY_FROM_OBJECT));
     }
 
     @Override
@@ -43,17 +25,7 @@ public class CountryDAO extends AbstractMysqlJdbcDAO<Country> implements ICountr
 
     @Override
     public void updateItem(Country item) {
-        Connection connection = ConnectionPool.getInstance().getConnection();
-
-        try(PreparedStatement ps = connection.prepareStatement(UPDATE_COUNTRY)){
-            ps.setString(1, item.getName());
-            ps.setLong(2, item.getId());
-            ps.executeUpdate();
-        } catch (SQLException e) {
-            LOGGER.error("Error updating item:\n" + e);
-        } finally {
-            ConnectionPool.getInstance().returnConnection(connection);
-        }
+        updateItem(item, UPDATE_COUNTRY, item.getId());
     }
 
     @Override
@@ -67,5 +39,10 @@ public class CountryDAO extends AbstractMysqlJdbcDAO<Country> implements ICountr
         c.setId(rs.getLong("id"));
         c.setName(rs.getString("name"));
         return c;
+    }
+
+    @Override
+    protected void setPsParameters(Country item, PreparedStatement ps) throws SQLException{
+        ps.setString(1, item.getName());
     }
 }

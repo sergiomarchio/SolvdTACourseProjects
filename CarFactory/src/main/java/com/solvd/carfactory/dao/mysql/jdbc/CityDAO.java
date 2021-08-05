@@ -1,6 +1,5 @@
 package com.solvd.carfactory.dao.mysql.jdbc;
 
-import com.solvd.carfactory.connectionpool.ConnectionPool;
 import com.solvd.carfactory.dao.ICityDAO;
 import com.solvd.carfactory.models.location.City;
 import com.solvd.carfactory.models.location.Country;
@@ -17,25 +16,7 @@ public class CityDAO extends AbstractMysqlJdbcDAO<City> implements ICityDAO {
 
     @Override
     public void createItem(City item) {
-        Connection connection = ConnectionPool.getInstance().getConnection();
-
-        try (PreparedStatement ps = connection.prepareStatement(CREATE_CITY_FROM_OBJECT,
-                Statement.RETURN_GENERATED_KEYS)) {
-            ps.setString(1, item.getName());
-            ps.setLong(2, item.getCountry().getId());
-            ps.executeQuery();
-
-            long id;
-            try (ResultSet rs = ps.getGeneratedKeys()) {
-                rs.next();
-                id = rs.getLong(1);
-            }
-            item.setId(id);
-        } catch (SQLException e) {
-            LOGGER.error(e);
-        } finally {
-            ConnectionPool.getInstance().returnConnection(connection);
-        }
+        item.setId(createItem(item, CREATE_CITY_FROM_OBJECT));
     }
 
     @Override
@@ -45,18 +26,7 @@ public class CityDAO extends AbstractMysqlJdbcDAO<City> implements ICityDAO {
 
     @Override
     public void updateItem(City item) {
-        Connection connection = ConnectionPool.getInstance().getConnection();
-
-        try(PreparedStatement ps = connection.prepareStatement(UPDATE_CITY)){
-            ps.setString(1, item.getName());
-            ps.setLong(2, item.getCountry().getId());
-            ps.setLong(3, item.getId());
-            ps.executeUpdate();
-        } catch (SQLException e) {
-            LOGGER.error("Error updating item:\n" + e);
-        } finally {
-            ConnectionPool.getInstance().returnConnection(connection);
-        }
+        updateItem(item, UPDATE_CITY, item.getId());
     }
 
     @Override
@@ -75,5 +45,11 @@ public class CityDAO extends AbstractMysqlJdbcDAO<City> implements ICityDAO {
         c.setCountry(country);
 
         return c;
+    }
+
+    @Override
+    protected void setPsParameters(City item, PreparedStatement ps) throws SQLException {
+        ps.setString(1, item.getName());
+        ps.setLong(2, item.getCountry().getId());
     }
 }
