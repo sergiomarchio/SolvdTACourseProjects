@@ -38,3 +38,33 @@ java.sql.SQLException: Before start of result set
 [main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item.
 [main] ERROR com.solvd.carfactory.dao.mysql.jdbc.CountryDAO  - Error reading item:
 java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 9 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 9 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 9 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 9 Name: Japan
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.CountryDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 10 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 10 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 10 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 10 Name: Japan
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.CountryDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 11 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 11 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 11 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 11 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 12 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 12 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 12 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 12 Name: Japan
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.CountryDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService: Name: London Country: England
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 13 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 13 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 13 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 13 Name: Japan
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.CountryDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1Name: London Country: England

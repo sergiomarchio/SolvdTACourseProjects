@@ -3,7 +3,12 @@ package com.solvd.carfactory.main;
 import com.solvd.carfactory.connectionpool.ConnectionPool;
 import com.solvd.carfactory.dao.ICountryDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.CountryDAO;
+import com.solvd.carfactory.models.location.City;
 import com.solvd.carfactory.models.location.Country;
+import com.solvd.carfactory.services.IAddressService;
+import com.solvd.carfactory.services.ICityService;
+import com.solvd.carfactory.services.impl.AddressService;
+import com.solvd.carfactory.services.impl.CityService;
 import org.apache.log4j.Logger;
 
 public class Runner {
@@ -14,7 +19,7 @@ public class Runner {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
-            LOGGER.error("Error loading mysql driver class: \n" + e);
+            LOGGER.error("Error loading mysql driver class:\n" + e);
         }
 
         ConnectionPool pool = ConnectionPool.init(5,
@@ -23,8 +28,6 @@ public class Runner {
 
 
         ICountryDAO countryDAO = new CountryDAO();
-
-        LOGGER.debug("Read country from db: " + countryDAO.getItemById(1).getName());
 
         Country japan = new Country();
         japan.setName("iapan");
@@ -41,8 +44,19 @@ public class Runner {
                 + " Name: " + countryDAO.getItemById(japan.getId()).getName());
         // Delete
         countryDAO.deleteItem(japan.getId());
-        LOGGER.debug("Deleted item.");
+        LOGGER.debug("Deleted item with id: " + japan.getId() + " Name: " + japan.getName());
         countryDAO.getItemById(japan.getId());
+
+
+        ICityService cityService = new CityService();
+        City city = cityService.getCityById(1);
+        LOGGER.debug("Got city from CityService with id: " + city.getId() + " Name: " + city.getName()
+                + " Country: " + city.getCountry().getName());
+
+
+
+
+
 
         pool.closeAll();
     }
