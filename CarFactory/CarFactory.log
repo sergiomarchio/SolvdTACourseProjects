@@ -103,3 +103,20 @@ java.sql.SQLException: Illegal operation on empty result set.
 [main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
 java.sql.SQLException: Illegal operation on empty result set.
 [main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 19 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 19 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 19 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 19 Name: Japan
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England
+[main] DEBUG com.solvd.carfactory.connectionpool.ConnectionPool  - Unsupported database: mysqla
+[main] ERROR com.solvd.carfactory.connectionpool.ConnectionPool  - Error getting database connection from 52.59.193.212:3306
+java.sql.SQLException: No suitable driver found for jdbc:mysqla://52.59.193.212:3306/car_factory_sergio_marchio
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 20 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 20 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 20 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 20 Name: Japan
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England

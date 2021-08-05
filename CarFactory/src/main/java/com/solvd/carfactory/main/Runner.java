@@ -16,17 +16,6 @@ public class Runner {
 
     public final static void main(String[] args){
 
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            LOGGER.error("Error loading mysql driver class:\n" + e);
-        }
-
-        ConnectionPool pool = ConnectionPool.init(5,
-                "52.59.193.212:3306", "car_factory_sergio_marchio",
-                "root", "devintern");
-
-
         ICountryDAO countryDAO = new CountryDAO();
 
         Country japan = new Country();
@@ -57,7 +46,6 @@ public class Runner {
 
 
 
-
-        pool.closeAll();
+        ConnectionPool.getInstance().closeAll();
     }
 }
