@@ -1,0 +1,15 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:include schemaLocation="country.xsd"/>
+
+    <xsd:element name="city" type="City"/>
+
+    <xsd:complexType name="City">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="country" type="Country"/>
+        </xsd:sequence>
+
+        <xsd:attribute name="id" type="xsd:long" use="required"/>
+    </xsd:complexType>
+
+</xsd:schema>

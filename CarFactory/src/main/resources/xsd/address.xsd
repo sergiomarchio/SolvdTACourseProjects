@@ -1,0 +1,18 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:include schemaLocation="city.xsd"/>
+
+    <xsd:element name="address" type="Address"/>
+
+    <xsd:complexType name="Address">
+        <xsd:sequence>
+            <xsd:element name="street" type="xsd:string"/>
+            <xsd:element name="number" type="xsd:string"/>
+            <xsd:element name="dept_number" type="xsd:string"/>
+            <xsd:element name="zip_code" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="city" type="City"/>
+        </xsd:sequence>
+
+        <xsd:attribute name="id" type="xsd:long" use="required"/>
+    </xsd:complexType>
+
+</xsd:schema>

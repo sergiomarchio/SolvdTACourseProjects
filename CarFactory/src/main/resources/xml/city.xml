@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<city id="404"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../xsd/city.xsd">
+    <name>Buenos Aires</name>
+    <country id="404">
+        <name>Argentina</name>
+    </country>
+</city>
