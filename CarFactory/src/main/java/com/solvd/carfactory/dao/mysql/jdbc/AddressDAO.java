@@ -10,7 +10,7 @@ import java.sql.*;
 public class AddressDAO extends AbstractMysqlJdbcDAO<Address> implements IAddressDAO {
     private final static Logger LOGGER = Logger.getLogger(AddressDAO.class);
     private final static String CREATE_ADDRESS_FROM_OBJECT = "INSERT INTO "
-        + "address(street, number, dept_number, zip_code, city_id) VALUES (?), (?), (?), (?), (?)";
+        + "addresses(street, number, dept_number, zip_code, city_id) VALUES (?), (?), (?), (?), (?)";
     private final static String GET_ADDRESS_BY_ID = "SELECT * FROM addresses WHERE id = ?";
     private final static String UPDATE_ADDRESS = "UPDATE addresses SET "
             + "street = ?, number = ?, dept_number = ?, zip_code = ?, city_id = ? WHERE id = ?";
