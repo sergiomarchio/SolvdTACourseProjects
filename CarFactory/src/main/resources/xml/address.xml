@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<address id="404"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../xsd/address.xsd">
+    <street>Faraday</street>
+    <number>96485</number>
+    <dept_number/>
+    <zip_code>C000</zip_code>
+    <city id="51">
+        <name>Buenos Aires</name>
+        <country id="200">
+            <name>Argentina</name>
+        </country>
+    </city>
+</address>

@@ -143,3 +143,447 @@ java.sql.SQLException: Illegal operation on empty result set.
 [main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
 java.sql.SQLException: Illegal operation on empty result set.
 [main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@47f37ef1
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@47f37ef1
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: country
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@47f37ef1
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@47f37ef1
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@47f37ef1
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: country
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@47f37ef1
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@47f37ef1
+[main] ERROR com.solvd.carfactory.main.Runner  - Error creating SAX parser:
+org.xml.sax.SAXParseException; systemId: file:/D:/solvd/laba/SolvdTACourseProjects/CarFactory/src/main/resources/xml/country.xml; lineNumber: 6; columnNumber: 3; The element type "name" must be terminated by the matching end-tag "</name>".
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: country
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] ERROR com.solvd.carfactory.main.Runner  - Error with SAX parser:
+org.xml.sax.SAXException: FATAL ERROR:
+URI: file:/D:/solvd/laba/SolvdTACourseProjects/CarFactory/src/main/resources/xml/country.xml
+Line: 6
+The element type "name" must be terminated by the matching end-tag "</name>".
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: country
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName:
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName:
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName:
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName:
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: country
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: [C@5e025e70
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: [C@5e025e70
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: [C@5e025e70
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: country
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: country
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: country
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName: name
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: name
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName: country
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName:
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName:
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName:
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName:
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName:
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName:
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName:
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName:
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document started
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName:
+qName: country
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element started:
+namespaceURI:
+localName:
+qName: name
+attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@19bb089b
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName:
+qName: name
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Element ended:
+uri:
+localName:
+qName: country
+[main] DEBUG com.solvd.carfactory.sax.SAXHandlerDemo  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element started: qName: countryattributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@1b40d5f0
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element started: qName: nameattributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@1b40d5f0
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element ended:qName: name
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element ended:qName: country
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element started:  qName: country attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@1b40d5f0
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element started:  qName: name attributes: com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy@1b40d5f0
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element ended:qName: name
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element ended:qName: country
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element started:  qName: country id: null
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element started:  qName: name id: null
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element ended:  qName: name
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element ended:  qName: country
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element started:  qName: country id: 404
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element started:  qName: name id: null
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element ended:  qName: name
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Element ended:  qName: country
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name id = null>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name id = null>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name id = null>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters:
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name id = null>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Characters: Argentina
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 404 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name id = null>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 404 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  -
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 404 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  -
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 404 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  -
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 404 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document started (Country)
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  -
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 404 - Argentina

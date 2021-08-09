@@ -5,17 +5,16 @@ import com.solvd.carfactory.dao.ICountryDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.CountryDAO;
 import com.solvd.carfactory.models.location.City;
 import com.solvd.carfactory.models.location.Country;
-import com.solvd.carfactory.services.IAddressService;
+import com.solvd.carfactory.sax.CountrySAX;
+import com.solvd.carfactory.sax.XMLRead;
 import com.solvd.carfactory.services.ICityService;
-import com.solvd.carfactory.services.impl.AddressService;
 import com.solvd.carfactory.services.impl.CityService;
 import org.apache.log4j.Logger;
 
 public class Runner {
     private final static Logger LOGGER = Logger.getLogger(Runner.class);
 
-    public final static void main(String[] args){
-
+    private static void crudOperations(){
         ICountryDAO countryDAO = new CountryDAO();
 
         Country japan = new Country();
@@ -44,9 +43,20 @@ public class Runner {
                 + " Country: " + city.getCountry().getName());
 
 
-
-
-
         ConnectionPool.getInstance().closeAll();
+    }
+
+    private static void sax(){
+
+        Country country = XMLRead.xmlRead("src/main/resources/xml/country.xml", new CountrySAX());
+
+        LOGGER.debug(country.getId() + " - " + country.getName());
+    }
+
+    public final static void main(String[] args){
+        // crudOperations();
+
+        sax();
+
     }
 }
