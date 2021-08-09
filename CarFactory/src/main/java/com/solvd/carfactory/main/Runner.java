@@ -8,6 +8,7 @@ import com.solvd.carfactory.models.location.Country;
 import com.solvd.carfactory.sax.CountrySAX;
 import com.solvd.carfactory.sax.XMLRead;
 import com.solvd.carfactory.services.ICityService;
+import com.solvd.carfactory.services.impl.AddressService;
 import com.solvd.carfactory.services.impl.CityService;
 import org.apache.log4j.Logger;
 
