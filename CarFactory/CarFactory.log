@@ -120,3 +120,26 @@ java.sql.SQLException: No suitable driver found for jdbc:mysqla://52.59.193.212:
 [main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
 java.sql.SQLException: Illegal operation on empty result set.
 [main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 21 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 21 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 21 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 21 Name: Japan
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 22 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 22 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 22 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 22 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Trying to read non existent element to check deletion:
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England
+[main] DEBUG com.solvd.carfactory.main.Runner  - Created country with id: 23 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read country with id: 23 Name: iapan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Updated country with id: 23 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Deleted item with id: 23 Name: Japan
+[main] DEBUG com.solvd.carfactory.main.Runner  - Trying to read non existent element to check deletion:
+[main] ERROR com.solvd.carfactory.dao.mysql.jdbc.AbstractMysqlJdbcDAO  - Error reading item:
+java.sql.SQLException: Illegal operation on empty result set.
+[main] DEBUG com.solvd.carfactory.main.Runner  - Got city from CityService with id: 1 Name: London Country: England

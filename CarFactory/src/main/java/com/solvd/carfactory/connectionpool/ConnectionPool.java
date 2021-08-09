@@ -19,40 +19,49 @@ public class ConnectionPool {
     private static ConnectionPool instance;
     private BlockingDeque<Optional<Connection>> connectionStack;
 
-    private static int maxConnections;
-    private static String dbType;
-    private static String url;
-    private static String dbName;
-    private static String user;
-    private static String password;
+    private int maxConnections;
+    private String dbType;
+    private String url;
+    private String dbName;
+    private String user;
+    private String password;
 
     private ConnectionPool() {
+        Properties prop = loadProperties();
+        this.maxConnections = Integer.parseInt(prop.getProperty("maxConnections"));
+        this.dbType = prop.getProperty("dbType");
+        this.url = prop.getProperty("url");
+        this.dbName = prop.getProperty("dbName");
+        this.user = prop.getProperty("user");
+        this.password = prop.getProperty("password");
+        validateFields();
+
         this.connectionStack = new LinkedBlockingDeque<>(maxConnections);
         for (int i = 0; i < maxConnections; i++)
             connectionStack.push(Optional.empty());
+
+        initializeDriver();
     }
 
-    private static void loadProperties(){
+    private Properties loadProperties(){
         Properties prop = new Properties();
 
         try (InputStream input = new FileInputStream("src/main/resources/database.properties")) {
             prop.load(input);
-
-            maxConnections = Integer.parseInt(prop.getProperty("maxConnections"));
-            if(maxConnections < 0) {
-                throw new IllegalArgumentException("maxConnections should be greater than zero!");
-            }
-            dbType = prop.getProperty("dbType");
-            url = prop.getProperty("url");
-            dbName = prop.getProperty("dbName");
-            user = prop.getProperty("user");
-            password = prop.getProperty("password");
         } catch (IOException e){
             LOGGER.error("Error trying to open src/main/resources/database.properties\n" + e);
         }
+
+        return prop;
     }
 
-    private static void initializeDriver(){
+    private void validateFields(){
+        if(maxConnections <= 0) {
+            throw new IllegalArgumentException("maxConnections should be greater than zero!");
+        }
+    }
+
+    private void initializeDriver(){
         switch (dbType){
             case "mysql":
                 try {
@@ -68,8 +77,6 @@ public class ConnectionPool {
 
     public static ConnectionPool getInstance() {
         if (instance == null) {
-            loadProperties();
-            initializeDriver();
             instance = new ConnectionPool();
         }
         return instance;

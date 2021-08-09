@@ -34,6 +34,7 @@ public class Runner {
         // Delete
         countryDAO.deleteItem(japan.getId());
         LOGGER.debug("Deleted item with id: " + japan.getId() + " Name: " + japan.getName());
+        LOGGER.debug("Trying to read non existent element to check deletion:");
         countryDAO.getItemById(japan.getId());
 
 
