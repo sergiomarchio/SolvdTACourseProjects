@@ -10,11 +10,6 @@ public class City {
     public City(long id){
         this.id = id;
     }
-    public City(long id, String name, Country country) {
-        this.id = id;
-        this.name = name;
-        this.country = country;
-    }
 
     public long getId() {
         return id;

@@ -11,10 +11,8 @@ public class Provider {
 
     public Provider() {
     }
-    public Provider(long id, String name, String email) {
+    public Provider(long id) {
         this.id = id;
-        this.name = name;
-        this.email = email;
     }
 
     public long getId() {

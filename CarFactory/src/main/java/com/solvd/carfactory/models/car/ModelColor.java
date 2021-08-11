@@ -4,15 +4,13 @@ import com.solvd.carfactory.models.supply.PaintColor;
 
 public class ModelColor {
     private long id;
-    private PaintColor color;
-    private CarModel model;
+    private PaintColor paintColor;
+    private CarModel carModel;
 
     public ModelColor() {
     }
-    public ModelColor(long id, PaintColor color, CarModel model) {
+    public ModelColor(long id) {
         this.id = id;
-        this.color = color;
-        this.model = model;
     }
 
     public long getId() {
@@ -21,16 +19,16 @@ public class ModelColor {
     public void setId(long id) {
         this.id = id;
     }
-    public PaintColor getColor() {
-        return color;
+    public PaintColor getPaintColor() {
+        return paintColor;
     }
-    public void setColor(PaintColor color) {
-        this.color = color;
+    public void setPaintColor(PaintColor paintColor) {
+        this.paintColor = paintColor;
     }
-    public CarModel getModel() {
-        return model;
+    public CarModel getCarModel() {
+        return carModel;
     }
-    public void setModel(CarModel model) {
-        this.model = model;
+    public void setCarModel(CarModel carModel) {
+        this.carModel = carModel;
     }
 }

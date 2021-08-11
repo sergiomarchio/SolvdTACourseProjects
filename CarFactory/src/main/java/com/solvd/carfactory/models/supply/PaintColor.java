@@ -7,9 +7,8 @@ public class PaintColor {
 
     public PaintColor() {
     }
-    public PaintColor(long id, String name) {
+    public PaintColor(long id) {
         this.id = id;
-        this.name = name;
     }
 
     public long getId() {

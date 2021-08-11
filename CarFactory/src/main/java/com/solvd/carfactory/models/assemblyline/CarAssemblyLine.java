@@ -9,10 +9,8 @@ public class CarAssemblyLine {
 
     public CarAssemblyLine() {
     }
-    public CarAssemblyLine(long id, AssemblyLine assemblyLine, Car car) {
+    public CarAssemblyLine(long id) {
         this.id = id;
-        this.assemblyLine = assemblyLine;
-        this.car = car;
     }
 
     public long getId() {

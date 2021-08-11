@@ -6,9 +6,8 @@ public class Brand {
 
     public Brand() {
     }
-    public Brand(long id, String name) {
+    public Brand(long id) {
         this.id = id;
-        this.name = name;
     }
 
     public long getId() {
