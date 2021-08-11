@@ -3,7 +3,6 @@ package com.solvd.carfactory.sax;
 import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.DefaultHandler;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -14,7 +13,7 @@ import java.io.IOException;
 public class XMLRead {
     private final static Logger LOGGER = Logger.getLogger(XMLRead.class);
 
-    public static <T, U extends DefaultHandler & ISAXResult<T>> T xmlRead(String xmlFile, U classSax){
+    public static <T> T xmlRead(String xmlFile, UniversalSAX<T> classSax){
         SAXParserFactory spf = SAXParserFactory.newInstance();
 
         try {

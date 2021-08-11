@@ -979,4 +979,652 @@ qName: country
 [main] DEBUG com.solvd.carfactory.sax.CountrySAX  -
 </country>
 [main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 404 - Argentina[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina
+</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 
+
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 404 - null
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 404 - null
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 404>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
 [main] DEBUG com.solvd.carfactory.main.Runner  - 404 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Document ended (Country)
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 
+
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  -  Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  -  
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - aArgentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - a
+</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 9</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - 1</country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read Country: 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read Country: 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read Country: 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Current object tag: city
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Current object tag: country
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read Country: 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Current object tag: cityqName: name
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Current object tag: countryqName: name
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read Country: 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - name - name
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document started
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.CountrySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read Country: 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.CitySAX  - Country document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - City document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read Country: 200 - Argentina
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read City: 51 - Buenos Aires - Argentina
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error creating XML Stream Writer for src/main/resources/output/test.xml
+java.io.FileNotFoundException: src\main\resources\output\test.xml (El sistema no puede encontrar la ruta especificada)
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <address id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <street>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Faraday</street>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <number>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 96485</number>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <dept_number>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </dept_number>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <zip_code>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - C000</zip_code>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <city id = 51>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Buenos Aires</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <country id = 200>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Argentina</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </country>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </city>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </address>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended

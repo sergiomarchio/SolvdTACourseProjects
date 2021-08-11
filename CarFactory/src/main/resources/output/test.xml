@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<address id="404">
+    <street>Faraday</street>
+    <dept_number></dept_number>
+    <zip_code>C000</zip_code>
+    <city id="51">
+        <name>Buenos Aires</name>
+        <country id="200">
+            <name>Argentina</name>
+        </country>
+    </city>
+    <number>96485</number>
+</address>
