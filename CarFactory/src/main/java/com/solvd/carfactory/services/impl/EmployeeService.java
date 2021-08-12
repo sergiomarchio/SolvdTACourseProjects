@@ -6,9 +6,7 @@ import com.solvd.carfactory.dao.IEmployeeDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.AddressDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.DepartmentDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.EmployeeDAO;
-import com.solvd.carfactory.models.employee.Department;
 import com.solvd.carfactory.models.employee.Employee;
-import com.solvd.carfactory.models.location.Address;
 import com.solvd.carfactory.services.IEmployeeService;
                     
 public class EmployeeService implements IEmployeeService {

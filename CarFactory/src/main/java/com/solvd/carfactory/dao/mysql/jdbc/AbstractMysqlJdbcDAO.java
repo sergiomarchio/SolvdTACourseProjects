@@ -9,17 +9,18 @@ public abstract class AbstractMysqlJdbcDAO<T> {
     private final static Logger LOGGER = Logger.getLogger(AbstractMysqlJdbcDAO.class);
 
     protected abstract T buildItem(ResultSet rs) throws SQLException;
+
     protected abstract void setPsParameters(T item, PreparedStatement ps) throws SQLException;
 
-    protected Long createItem(T item, String query){
+    protected Long createItem(T item, String query) {
         Connection connection = ConnectionPool.getInstance().getConnection();
 
-        try(PreparedStatement ps = connection.prepareStatement(query,
-                Statement.RETURN_GENERATED_KEYS)){
+        try (PreparedStatement ps = connection.prepareStatement(query,
+                Statement.RETURN_GENERATED_KEYS)) {
             setPsParameters(item, ps);
             ps.executeUpdate();
 
-            try(ResultSet rs = ps.getGeneratedKeys()){
+            try (ResultSet rs = ps.getGeneratedKeys()) {
                 rs.next();
                 return rs.getLong(1);
             }
@@ -32,13 +33,33 @@ public abstract class AbstractMysqlJdbcDAO<T> {
         return null;
     }
 
-    protected T getItemById(long id, String query){
+    protected <U> U getResultsOfSelect(String query, IPrepareStatement prepareStatement,
+                                       IResultParser<U> resultParser) {
         Connection connection = ConnectionPool.getInstance().getConnection();
 
-        try(PreparedStatement ps = connection.prepareStatement(query)) {
+        try (PreparedStatement ps = connection.prepareStatement(query)) {
+            prepareStatement.prepare(ps);
+
+            try (ResultSet rs = ps.executeQuery()){
+                return resultParser.parse(rs);
+            }
+        } catch (SQLException e) {
+            LOGGER.error("Error reading item:\n" + e);
+        } finally {
+            ConnectionPool.getInstance().returnConnection(connection);
+        }
+
+        return null;
+
+    }
+
+    protected T getItemById(long id, String query) {
+        Connection connection = ConnectionPool.getInstance().getConnection();
+
+        try (PreparedStatement ps = connection.prepareStatement(query)) {
             ps.setLong(1, id);
 
-            try(ResultSet rs = ps.executeQuery()){
+            try (ResultSet rs = ps.executeQuery()) {
                 rs.next();
                 return buildItem(rs);
             }
@@ -51,10 +72,10 @@ public abstract class AbstractMysqlJdbcDAO<T> {
         return null;
     }
 
-    protected void updateItem(T item, String query, long id){
+    protected void updateItem(T item, String query, long id) {
         Connection connection = ConnectionPool.getInstance().getConnection();
 
-        try(PreparedStatement ps = connection.prepareStatement(query)){
+        try (PreparedStatement ps = connection.prepareStatement(query)) {
             setPsParameters(item, ps);
             ps.setLong(ps.getParameterMetaData().getParameterCount(), id);
             ps.executeUpdate();
@@ -65,10 +86,10 @@ public abstract class AbstractMysqlJdbcDAO<T> {
         }
     }
 
-    protected void deleteItem(long id, String query){
+    protected void deleteItem(long id, String query) {
         Connection connection = ConnectionPool.getInstance().getConnection();
 
-        try(PreparedStatement ps = connection.prepareStatement(query)){
+        try (PreparedStatement ps = connection.prepareStatement(query)) {
             ps.setLong(1, id);
             ps.executeUpdate();
         } catch (SQLException e) {

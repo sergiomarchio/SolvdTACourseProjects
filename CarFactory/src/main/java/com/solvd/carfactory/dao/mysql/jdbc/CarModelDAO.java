@@ -4,6 +4,8 @@ import com.mysql.cj.MysqlType;
 import com.solvd.carfactory.dao.ICarModelDAO;
 import com.solvd.carfactory.models.car.Brand;
 import com.solvd.carfactory.models.car.CarModel;
+
+import java.time.LocalDate;
 import java.time.Year;
 import org.apache.log4j.Logger;
 
@@ -46,7 +48,7 @@ public class CarModelDAO extends AbstractMysqlJdbcDAO<CarModel> implements ICarM
         carModel.setId(rs.getLong("id"));
         carModel.setName(rs.getString("name"));
         carModel.setType(rs.getString("type"));
-        carModel.setYear(rs.getObject("year", Year.class));
+        carModel.setYear(Year.of(rs.getObject("year", LocalDate.class).getYear()));
         carModel.setFuelType(rs.getString("fuel_type"));
         carModel.setUnitaryPrice(rs.getDouble("unitary_price"));
         carModel.setBrand(new Brand(rs.getLong("brand_id")));

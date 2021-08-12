@@ -6,11 +6,13 @@ import com.solvd.carfactory.dao.IPaintColorDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.CarModelDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.ModelColorDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.PaintColorDAO;
-import com.solvd.carfactory.models.car.CarModel;
 import com.solvd.carfactory.models.car.ModelColor;
 import com.solvd.carfactory.models.supply.PaintColor;
 import com.solvd.carfactory.services.IModelColorService;
-                    
+
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class ModelColorService implements IModelColorService {
     private IModelColorDAO modelColorDAO = new ModelColorDAO();
     private IPaintColorDAO paintColorDAO = new PaintColorDAO();
@@ -22,5 +24,12 @@ public class ModelColorService implements IModelColorService {
         modelColor.setPaintColor(paintColorDAO.getItemById(modelColor.getPaintColor().getId()));
         modelColor.setCarModel(carModelDAO.getItemById(modelColor.getCarModel().getId()));
         return modelColor;
+    }
+
+    @Override
+    public List<PaintColor> getPaintColorsByModelId(long id) {
+        return modelColorDAO.getPaintColorsByModelId(id).stream()
+                            .map(pc -> paintColorDAO.getItemById(pc.getId()))
+                            .collect(Collectors.toList());
     }
 }

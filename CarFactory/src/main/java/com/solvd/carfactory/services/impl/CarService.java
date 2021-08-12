@@ -9,9 +9,6 @@ import com.solvd.carfactory.dao.mysql.jdbc.CarModelDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.ClientOrderDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.PaintColorDAO;
 import com.solvd.carfactory.models.car.Car;
-import com.solvd.carfactory.models.car.CarModel;
-import com.solvd.carfactory.models.client.ClientOrder;
-import com.solvd.carfactory.models.supply.PaintColor;
 import com.solvd.carfactory.services.ICarService;
                     
 public class CarService implements ICarService {

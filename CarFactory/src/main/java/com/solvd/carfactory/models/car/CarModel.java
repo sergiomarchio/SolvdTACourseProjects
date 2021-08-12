@@ -1,6 +1,9 @@
 package com.solvd.carfactory.models.car;
 
+import com.solvd.carfactory.models.supply.PaintColor;
+
 import java.time.Year;
+import java.util.List;
 
 public class CarModel {
     private long id;
@@ -10,6 +13,7 @@ public class CarModel {
     private String fuelType;
     private double unitaryPrice;
     private Brand brand;
+    private List<PaintColor> paintColors;
 
     public CarModel() {
     }
@@ -58,5 +62,11 @@ public class CarModel {
     }
     public void setBrand(Brand brand) {
         this.brand = brand;
+    }
+    public List<PaintColor> getPaintColors() {
+        return paintColors;
+    }
+    public void setPaintColors(List<PaintColor> paintColors) {
+        this.paintColors = paintColors;
     }
 }

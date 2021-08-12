@@ -5,9 +5,7 @@ import com.solvd.carfactory.dao.ICountryDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.CountryDAO;
 import com.solvd.carfactory.models.location.City;
 import com.solvd.carfactory.models.location.Country;
-import com.solvd.carfactory.services.IAddressService;
 import com.solvd.carfactory.services.ICityService;
-import com.solvd.carfactory.services.impl.AddressService;
 import com.solvd.carfactory.services.impl.CityService;
 import org.apache.log4j.Logger;
 

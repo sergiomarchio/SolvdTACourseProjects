@@ -34,7 +34,6 @@
 import inspect
 import os
 import pathlib
-import sys
 
 
 def snake_to_camel(string):
