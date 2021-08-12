@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<car_model id="404"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="../xsd/car_model.xsd">
+    <name>Just A Model</name>
+    <type>Compact</type>
+    <year>2021</year>
+    <fuel_type>Electric</fuel_type>
+    <unitary_price>50000</unitary_price>
+    <brand id="101">
+        <name>UFO</name>
+    </brand>
+    <paint_colors>
+        <paint_color id="99">
+            <name>Fuchsia</name>
+        </paint_color>
+        <paint_color id="55">
+            <name>Lime green</name>
+        </paint_color>
+    </paint_colors>
+</car_model>

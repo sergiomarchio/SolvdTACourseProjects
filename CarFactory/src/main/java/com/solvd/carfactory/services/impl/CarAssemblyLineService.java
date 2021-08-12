@@ -10,17 +10,18 @@ import com.solvd.carfactory.models.assemblyline.AssemblyLine;
 import com.solvd.carfactory.models.assemblyline.CarAssemblyLine;
 import com.solvd.carfactory.models.car.Car;
 import com.solvd.carfactory.services.ICarAssemblyLineService;
-                    
+import com.solvd.carfactory.services.ICarService;
+
 public class CarAssemblyLineService implements ICarAssemblyLineService {
     private ICarAssemblyLineDAO carAssemblyLineDAO = new CarAssemblyLineDAO();
     private IAssemblyLineDAO assemblyLineDAO = new AssemblyLineDAO();
-    private ICarDAO carDAO = new CarDAO();
+    private ICarService carService = new CarService();
 
     @Override
     public CarAssemblyLine getCarAssemblyLineById(long id) {
         CarAssemblyLine carAssemblyLine = carAssemblyLineDAO.getItemById(id);
         carAssemblyLine.setAssemblyLine(assemblyLineDAO.getItemById(carAssemblyLine.getAssemblyLine().getId()));
-        carAssemblyLine.setCar(carDAO.getItemById(carAssemblyLine.getCar().getId()));
+        carAssemblyLine.setCar(carService.getCarById(carAssemblyLine.getCar().getId()));
         return carAssemblyLine;
     }
 }

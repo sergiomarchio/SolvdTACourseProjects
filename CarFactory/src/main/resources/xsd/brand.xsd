@@ -1,0 +1,13 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="brand" type="Brand"/>
+
+    <xsd:complexType name="Brand">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+        </xsd:sequence>
+
+        <xsd:attribute name="id" type="xsd:long" use="required"/>
+    </xsd:complexType>
+
+</xsd:schema>

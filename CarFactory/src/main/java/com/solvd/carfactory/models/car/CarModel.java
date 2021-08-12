@@ -3,6 +3,7 @@ package com.solvd.carfactory.models.car;
 import com.solvd.carfactory.models.supply.PaintColor;
 
 import java.time.Year;
+import java.util.LinkedList;
 import java.util.List;
 
 public class CarModel {
@@ -16,9 +17,11 @@ public class CarModel {
     private List<PaintColor> paintColors;
 
     public CarModel() {
+        this.paintColors = new LinkedList<>();
     }
     public CarModel(long id) {
         this.id = id;
+        this.paintColors = new LinkedList<>();
     }
 
     public long getId() {

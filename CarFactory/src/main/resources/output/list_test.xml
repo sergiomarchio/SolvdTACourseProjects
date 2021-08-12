@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<car_model id="404">
+    <paint_colors>
+        <paint_color id="99">
+            <name>Fuchsia</name>
+            <provider>
+            </provider>
+        </paint_color>
+        <paint_color id="55">
+            <name>Lime green</name>
+            <provider>
+            </provider>
+        </paint_color>
+    </paint_colors>
+    <fuel_type>Electric</fuel_type>
+    <unitary_price>50000.0</unitary_price>
+    <brand id="101">
+        <name>UFO</name>
+    </brand>
+    <name>Just A Model</name>
+    <type>Compact</type>
+    <year>2021</year>
+</car_model>

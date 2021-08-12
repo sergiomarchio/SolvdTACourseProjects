@@ -1627,3 +1627,1378 @@ java.io.FileNotFoundException: src\main\resources\output\test.xml (El sistema no
 [main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </city>
 [main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </address>
 [main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] ERROR com.solvd.carfactory.sax.UniversalSAX  - Error creating list paint_colors
+java.lang.NoSuchMethodException: java.util.List.<init>()
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] ERROR com.solvd.carfactory.sax.UniversalSAX  - Error creating list paint_colors
+java.lang.NoSuchMethodException: java.util.List.<init>()
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] ERROR com.solvd.carfactory.sax.UniversalSAX  - Error creating list paint_colors
+java.lang.NoSuchMethodException: java.util.List.<init>()
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] ERROR com.solvd.carfactory.sax.UniversalSAX  - Error creating list paint_colors
+java.lang.NoSuchMethodException: java.util.List.<init>()
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] ERROR com.solvd.carfactory.sax.UniversalSAX  - Error creating list paint_colors
+java.lang.NoSuchMethodException: java.util.List.<init>()
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] ERROR com.solvd.carfactory.sax.UniversalSAX  - Error creating list paint_colors
+java.lang.NoSuchMethodException: java.util.List.<init>()
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] ERROR com.solvd.carfactory.sax.UniversalSAX  - Error creating list paint_colors
+java.lang.NoSuchMethodException: java.util.List.<init>()
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@548b7f67
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@61dc03ce
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@548b7f67
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@548b7f67
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@61dc03ce
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@61dc03ce
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@61dc03ce
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@61dc03ce
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error writing to xml file: javax.xml.stream.XMLStreamException: Attribute not associated with any element
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error reading collection
+java.lang.NoSuchMethodException: com.solvd.carfactory.models.supply.PaintColor.getPaintColor()
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@61dc03ce
+[main] ERROR com.solvd.carfactory.sax.XMLWrite  - Error reading collection
+java.lang.NoSuchMethodException: java.util.LinkedList.getPaintColor()
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color com.solvd.carfactory.models.supply.PaintColor@7ca48474
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model color Fuchsia
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model, color Fuchsia
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model, color Fuchsia
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model, color Fuchsia
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model, color Fuchsia
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model, color Fuchsia
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model, color Fuchsia
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document started
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <car_model id = 404>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Just A Model</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Compact</type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 2021</year>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Electric</fuel_type>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - 50000</unitary_price>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <brand id = 101>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - UFO</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </brand>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 99>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Fuchsia</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <paint_color id = 55>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - <name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Lime green</name>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -         </paint_color>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  -     </paint_colors>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
+[main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model, color Fuchsia

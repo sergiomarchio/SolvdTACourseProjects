@@ -14,7 +14,6 @@ import com.solvd.carfactory.services.IEmployeeService;
 
 public class AssemblyEmployeeService implements IAssemblyEmployeeService {
     private IAssemblyEmployeeDAO assemblyEmployeeDAO = new AssemblyEmployeeDAO();
-    private IEmployeeDAO employeeDAO = new EmployeeDAO();
     private IEmployeeService employeeService = new EmployeeService();
     private IAssemblyLineDAO assemblyLineDAO = new AssemblyLineDAO();
 

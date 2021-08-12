@@ -3,11 +3,13 @@ package com.solvd.carfactory.main;
 import com.solvd.carfactory.connectionpool.ConnectionPool;
 import com.solvd.carfactory.dao.ICountryDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.CountryDAO;
+import com.solvd.carfactory.models.car.CarModel;
 import com.solvd.carfactory.models.location.Address;
 import com.solvd.carfactory.models.location.City;
 import com.solvd.carfactory.models.location.Country;
 import com.solvd.carfactory.sax.*;
 import com.solvd.carfactory.services.ICityService;
+import com.solvd.carfactory.services.impl.CarModelService;
 import com.solvd.carfactory.services.impl.CityService;
 import org.apache.log4j.Logger;
 
@@ -59,11 +61,23 @@ public class Runner {
         new XMLWrite().xmlWrite("src/main/resources/output/test.xml", address);
     }
 
+    private static void saxWithList(){
+        CarModel carModel = XMLRead.xmlRead("src/main/resources/xml/car_model.xml", new UniversalSAX<>());
+        LOGGER.debug("Car model: " + carModel.getName() + ", color " + carModel.getPaintColors().get(0).getName());
+
+        new XMLWrite().xmlWrite("src/main/resources/output/list_test.xml", carModel);
+
+        new XMLWrite().xmlWrite("src/main/resources/output/model_from_db.xml",
+                new CarModelService().getCarModelById(1));
+    }
+
     public final static void main(String[] args){
         //crudOperations();
 
         //magicSax();
 
-        xmlWrite();
+        //xmlWrite();
+
+        saxWithList();
     }
 }

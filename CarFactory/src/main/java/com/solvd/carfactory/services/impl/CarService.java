@@ -9,20 +9,23 @@ import com.solvd.carfactory.dao.mysql.jdbc.CarModelDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.ClientOrderDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.PaintColorDAO;
 import com.solvd.carfactory.models.car.Car;
+import com.solvd.carfactory.services.ICarModelService;
 import com.solvd.carfactory.services.ICarService;
-                    
+import com.solvd.carfactory.services.IClientOrderService;
+import com.solvd.carfactory.services.IPaintColorService;
+
 public class CarService implements ICarService {
     private ICarDAO carDAO = new CarDAO();
-    private ICarModelDAO carModelDAO = new CarModelDAO();
-    private IClientOrderDAO clientOrderDAO = new ClientOrderDAO();
-    private IPaintColorDAO paintColorDAO = new PaintColorDAO();
+    private ICarModelService carModelService = new CarModelService();
+    private IClientOrderService clientOrderService = new ClientOrderService();
+    private IPaintColorService paintColorService = new PaintColorService();
 
     @Override
     public Car getCarById(long id) {
         Car car = carDAO.getItemById(id);
-        car.setCarModel(carModelDAO.getItemById(car.getCarModel().getId()));
-        car.setClientOrder(clientOrderDAO.getItemById(car.getClientOrder().getId()));
-        car.setPaintColor(paintColorDAO.getItemById(car.getPaintColor().getId()));
+        car.setCarModel(carModelService.getCarModelById(car.getCarModel().getId()));
+        car.setClientOrder(clientOrderService.getClientOrderById(car.getClientOrder().getId()));
+        car.setPaintColor(paintColorService.getPaintColorById(car.getPaintColor().getId()));
         return car;
     }
 }

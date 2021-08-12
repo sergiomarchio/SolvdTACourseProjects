@@ -9,6 +9,7 @@ import java.io.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.*;
+import java.util.stream.Stream;
 
 public class XMLWrite {
     private final static Logger LOGGER = Logger.getLogger(XMLWrite.class);
@@ -37,12 +38,27 @@ public class XMLWrite {
             xsw.writeStartElement(elementName);
 
             if (classes.contains(m.getReturnType())) {
-                indentCount += indentAmount;
-                writeObject(xsw, fieldValue);
-                indentCount -= indentAmount;
+                if (fieldValue != null) {
+                    writeObject(xsw, fieldValue);
+                }
+                xsw.writeCharacters("\n" + " ".repeat(indentCount));
+            } else if (Collection.class.isAssignableFrom(m.getReturnType())) {
+                for (Object c : (Iterable<? extends Collection>) fieldValue) {
+                    if (c != null) {
+                        indentCount += indentAmount;
+                        xsw.writeCharacters("\n" + " ".repeat(indentCount));
+                        xsw.writeStartElement(StringUtils.camelToSnake(c.getClass().getSimpleName()));
+                        writeObject(xsw, c);
+                        xsw.writeCharacters("\n" + " ".repeat(indentCount));
+                        xsw.writeEndElement();
+                        indentCount -= indentAmount;
+                    }
+                }
                 xsw.writeCharacters("\n" + " ".repeat(indentCount));
             } else {
-                xsw.writeCharacters(String.valueOf(fieldValue));
+                if (fieldValue != null) {
+                    xsw.writeCharacters(String.valueOf(fieldValue));
+                }
             }
             xsw.writeEndElement();
 
@@ -71,9 +87,12 @@ public class XMLWrite {
                 .filter(m -> m.getName().equals("getId"))
                 .forEach(m -> writeAttributes(xsw, object, m));
 
+        indentCount += indentAmount;
         methods.stream()
                 .filter(m -> m.getName().startsWith("get") && !excludeMethods.contains(m.getName()))
                 .forEach(m -> writeFieldValues(xsw, object, m));
+
+        indentCount -= indentAmount;
     }
 
     public void xmlWrite(String fileName, Object object) {
@@ -87,7 +106,6 @@ public class XMLWrite {
             xsw.writeStartDocument();
             xsw.writeCharacters("\n");
             xsw.writeStartElement(StringUtils.camelToSnake(object.getClass().getSimpleName()));
-            indentCount += indentAmount;
 
             writeObject(xsw, object);
 

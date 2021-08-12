@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<car_model id="1">
+    <paint_colors>
+        <paint_color id="1">
+            <name>Onyx</name>
+            <provider id="3">
+                <email>van@go.com</email>
+                <phone>1863568</phone>
+                <name>Vincent RGB</name>
+                <address id="3">
+                    <street>Manet Av.</street>
+                    <dept_number></dept_number>
+                    <zip_code>4433</zip_code>
+                    <city id="2">
+                        <name>Paris</name>
+                        <country id="3">
+                            <name>France</name>
+                        </country>
+                    </city>
+                    <number>1010</number>
+                </address>
+            </provider>
+        </paint_color>
+        <paint_color id="4">
+            <name>Cherry</name>
+            <provider id="3">
+                <email>van@go.com</email>
+                <phone>1863568</phone>
+                <name>Vincent RGB</name>
+                <address id="3">
+                    <street>Manet Av.</street>
+                    <dept_number></dept_number>
+                    <zip_code>4433</zip_code>
+                    <city id="2">
+                        <name>Paris</name>
+                        <country id="3">
+                            <name>France</name>
+                        </country>
+                    </city>
+                    <number>1010</number>
+                </address>
+            </provider>
+        </paint_color>
+        <paint_color id="3">
+            <name>Silver</name>
+            <provider id="3">
+                <email>van@go.com</email>
+                <phone>1863568</phone>
+                <name>Vincent RGB</name>
+                <address id="3">
+                    <street>Manet Av.</street>
+                    <dept_number></dept_number>
+                    <zip_code>4433</zip_code>
+                    <city id="2">
+                        <name>Paris</name>
+                        <country id="3">
+                            <name>France</name>
+                        </country>
+                    </city>
+                    <number>1010</number>
+                </address>
+            </provider>
+        </paint_color>
+    </paint_colors>
+    <fuel_type>Electric</fuel_type>
+    <unitary_price>27000.0</unitary_price>
+    <brand id="1">
+        <name>Tesla</name>
+    </brand>
+    <name>Model 3</name>
+    <type>Sedan</type>
+    <year>2020</year>
+</car_model>

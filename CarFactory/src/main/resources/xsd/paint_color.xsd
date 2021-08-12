@@ -1,0 +1,15 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:include schemaLocation="provider.xsd"/>
+
+    <xsd:element name="paint_color" type="PaintColor"/>
+
+    <xsd:complexType name="PaintColor">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="provider" type="xsd:string" minOccurs="0"/>
+        </xsd:sequence>
+
+        <xsd:attribute name="id" type="xsd:long" use="required"/>
+    </xsd:complexType>
+
+</xsd:schema>

@@ -9,18 +9,20 @@ import com.solvd.carfactory.dao.mysql.jdbc.PartTypeDAO;
 import com.solvd.carfactory.models.car.Car;
 import com.solvd.carfactory.models.car.Part;
 import com.solvd.carfactory.models.supply.PartType;
+import com.solvd.carfactory.services.ICarService;
 import com.solvd.carfactory.services.IPartService;
-                    
+import com.solvd.carfactory.services.IPartTypeService;
+
 public class PartService implements IPartService {
     private IPartDAO partDAO = new PartDAO();
-    private ICarDAO carDAO = new CarDAO();
-    private IPartTypeDAO partTypeDAO = new PartTypeDAO();
+    private ICarService carService = new CarService();
+    private IPartTypeService partTypeService = new PartTypeService();
 
     @Override
     public Part getPartById(long id) {
         Part part = partDAO.getItemById(id);
-        part.setCar(carDAO.getItemById(part.getCar().getId()));
-        part.setPartType(partTypeDAO.getItemById(part.getPartType().getId()));
+        part.setCar(carService.getCarById(part.getCar().getId()));
+        part.setPartType(partTypeService.getPartTypeById(part.getPartType().getId()));
         return part;
     }
 }

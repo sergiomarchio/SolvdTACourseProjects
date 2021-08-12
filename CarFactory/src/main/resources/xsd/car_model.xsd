@@ -1,0 +1,28 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:include schemaLocation="paint_color.xsd"/>
+    <xsd:include schemaLocation="brand.xsd"/>
+
+    <xsd:element name="car_model" type="CarModel"/>
+
+    <xsd:complexType name="CarModel">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="type" type="xsd:string"/>
+            <xsd:element name="year" type="xsd:gYear"/>
+            <xsd:element name="fuel_type" type="xsd:string"/>
+            <xsd:element name="unitary_price" type="xsd:double"/>
+            <xsd:element name="brand" type="Brand"/>
+            <xsd:element name="zip_code" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="paint_colors" maxOccurs="1">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="paint_color" type="PaintColor" maxOccurs="unbounded"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+
+        <xsd:attribute name="id" type="xsd:long" use="required"/>
+    </xsd:complexType>
+
+</xsd:schema>

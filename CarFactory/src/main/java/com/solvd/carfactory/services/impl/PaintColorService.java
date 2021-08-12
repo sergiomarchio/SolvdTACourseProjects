@@ -7,15 +7,16 @@ import com.solvd.carfactory.dao.mysql.jdbc.ProviderDAO;
 import com.solvd.carfactory.models.supply.PaintColor;
 import com.solvd.carfactory.models.supply.Provider;
 import com.solvd.carfactory.services.IPaintColorService;
-                    
+import com.solvd.carfactory.services.IProviderService;
+
 public class PaintColorService implements IPaintColorService {
     private IPaintColorDAO paintColorDAO = new PaintColorDAO();
-    private IProviderDAO providerDAO = new ProviderDAO();
+    private IProviderService providerService = new ProviderService();
 
     @Override
     public PaintColor getPaintColorById(long id) {
         PaintColor paintColor = paintColorDAO.getItemById(id);
-        paintColor.setProvider(providerDAO.getItemById(paintColor.getProvider().getId()));
+        paintColor.setProvider(providerService.getProviderById(paintColor.getProvider().getId()));
         return paintColor;
     }
 }
