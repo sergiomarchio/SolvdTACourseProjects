@@ -6,15 +6,12 @@ public class Part {
     private long id;
     private String serialNumber;
     private Car car;
-    private PartType type;
+    private PartType partType;
 
     public Part() {
     }
-    public Part(long id, String serialNumber, Car car, PartType type) {
+    public Part(long id) {
         this.id = id;
-        this.serialNumber = serialNumber;
-        this.car = car;
-        this.type = type;
     }
 
     public long getId() {
@@ -35,10 +32,10 @@ public class Part {
     public void setCar(Car car) {
         this.car = car;
     }
-    public PartType getType() {
-        return type;
+    public PartType getPartType() {
+        return partType;
     }
-    public void setType(PartType type) {
-        this.type = type;
+    public void setPartType(PartType partType) {
+        this.partType = partType;
     }
 }

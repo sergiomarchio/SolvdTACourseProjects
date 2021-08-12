@@ -15,15 +15,8 @@ public class Employee {
 
     public Employee() {
     }
-    public Employee(long id, String firstName, String lastName, String email, String phone, String shift, double salary, Department department) {
+    public Employee(long id) {
         this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.phone = phone;
-        this.shift = shift;
-        this.salary = salary;
-        this.department = department;
     }
 
     public long getId() {

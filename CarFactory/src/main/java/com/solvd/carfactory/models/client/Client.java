@@ -11,10 +11,8 @@ public class Client {
 
     public Client() {
     }
-    public Client(long id, String name, String email) {
+    public Client(long id) {
         this.id = id;
-        this.name = name;
-        this.email = email;
     }
 
     public long getId() {

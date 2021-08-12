@@ -2,15 +2,14 @@ package com.solvd.carfactory.models.employee;
 
 import com.solvd.carfactory.models.assemblyline.AssemblyLine;
 
-public class AssemblyEmployee {
+public class AssemblyEmployee extends Employee{
     private long id;
     private AssemblyLine assemblyLine;
 
     public AssemblyEmployee() {
     }
-    public AssemblyEmployee(long id, AssemblyLine assemblyLine) {
+    public AssemblyEmployee(long id) {
         this.id = id;
-        this.assemblyLine = assemblyLine;
     }
 
     public long getId() {

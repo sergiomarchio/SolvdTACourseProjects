@@ -9,11 +9,8 @@ public class Department {
 
     public Department() {
     }
-    public Department(long id, String name, String phone, String email) {
+    public Department(long id) {
         this.id = id;
-        this.name = name;
-        this.phone = phone;
-        this.email = email;
     }
 
     public long getId() {

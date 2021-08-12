@@ -13,13 +13,6 @@ public class Address {
     public Address(long id) {
         this.id = id;
     }
-    public Address(long id, String street, String number, String zipCode, City city) {
-        this.id = id;
-        this.street = street;
-        this.number = number;
-        this.zipCode = zipCode;
-        this.city = city;
-    }
 
     public long getId() {
         return id;

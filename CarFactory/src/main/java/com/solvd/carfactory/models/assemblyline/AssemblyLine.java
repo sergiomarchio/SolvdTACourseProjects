@@ -6,9 +6,8 @@ public class AssemblyLine {
 
     public AssemblyLine() {
     }
-    public AssemblyLine(long id, String name) {
+    public AssemblyLine(long id) {
         this.id = id;
-        this.name = name;
     }
 
     public long getId() {

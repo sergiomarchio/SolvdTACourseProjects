@@ -4,20 +4,19 @@ import com.solvd.carfactory.models.client.ClientOrder;
 import com.solvd.carfactory.models.supply.PaintColor;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Car {
     private long id;
-    private LocalDate manufacturedDate;
-    private CarModel model;
-    private ClientOrder order;
-    private PaintColor color;
+    private LocalDateTime manufacturedDate;
+    private CarModel carModel;
+    private ClientOrder clientOrder;
+    private PaintColor paintColor;
 
     public Car() {
     }
-    public Car(long id, CarModel model, PaintColor color) {
+    public Car(long id) {
         this.id = id;
-        this.model = model;
-        this.color = color;
     }
 
     public long getId() {
@@ -26,28 +25,28 @@ public class Car {
     public void setId(long id) {
         this.id = id;
     }
-    public LocalDate getManufacturedDate() {
+    public LocalDateTime getManufacturedDate() {
         return manufacturedDate;
     }
-    public void setManufacturedDate(LocalDate manufacturedDate) {
+    public void setManufacturedDate(LocalDateTime manufacturedDate) {
         this.manufacturedDate = manufacturedDate;
     }
-    public CarModel getModel() {
-        return model;
+    public CarModel getCarModel() {
+        return carModel;
     }
-    public void setModel(CarModel model) {
-        this.model = model;
+    public void setCarModel(CarModel carModel) {
+        this.carModel = carModel;
     }
-    public ClientOrder getOrder() {
-        return order;
+    public ClientOrder getClientOrder() {
+        return clientOrder;
     }
-    public void setOrder(ClientOrder order) {
-        this.order = order;
+    public void setClientOrder(ClientOrder clientOrder) {
+        this.clientOrder = clientOrder;
     }
-    public PaintColor getColor() {
-        return color;
+    public PaintColor getPaintColor() {
+        return paintColor;
     }
-    public void setColor(PaintColor color) {
-        this.color = color;
+    public void setPaintColor(PaintColor paintColor) {
+        this.paintColor = paintColor;
     }
 }

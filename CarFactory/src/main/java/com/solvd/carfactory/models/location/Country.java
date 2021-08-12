@@ -9,10 +9,6 @@ public class Country {
     public Country(long id) {
         this.id = id;
     }
-    public Country(long id, String name) {
-        this.id = id;
-        this.name = name;
-    }
 
     public long getId() {
         return id;

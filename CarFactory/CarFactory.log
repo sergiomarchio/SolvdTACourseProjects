@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [main] ERROR com.solvd.carfactory.connectionpool.ConnectionPool  - Error getting database connection from 52.59.193.212:3306
 java.sql.SQLException: No suitable driver found for jdbc:mysql:52.59.193.212:3306
 [main] ERROR com.solvd.carfactory.main.Runner  - java.lang.ClassNotFoundException: com.mysql.jdbc.Driver

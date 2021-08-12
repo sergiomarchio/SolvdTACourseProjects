@@ -4,17 +4,14 @@ import com.solvd.carfactory.models.supply.PartType;
 
 public class ModelPart {
     private long id;
-    private CarModel model;
-    private PartType type;
+    private CarModel carModel;
+    private PartType partType;
     private int count;
 
     public ModelPart() {
     }
-    public ModelPart(long id, CarModel model, PartType type, int count) {
+    public ModelPart(long id) {
         this.id = id;
-        this.model = model;
-        this.type = type;
-        this.count = count;
     }
 
     public long getId() {
@@ -23,17 +20,17 @@ public class ModelPart {
     public void setId(long id) {
         this.id = id;
     }
-    public CarModel getModel() {
-        return model;
+    public CarModel getCarModel() {
+        return carModel;
     }
-    public void setModel(CarModel model) {
-        this.model = model;
+    public void setCarModel(CarModel carModel) {
+        this.carModel = carModel;
     }
-    public PartType getType() {
-        return type;
+    public PartType getPartType() {
+        return partType;
     }
-    public void setType(PartType type) {
-        this.type = type;
+    public void setPartType(PartType partType) {
+        this.partType = partType;
     }
     public int getCount() {
         return count;

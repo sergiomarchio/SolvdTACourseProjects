@@ -8,11 +8,8 @@ public class PartType {
 
     public PartType() {
     }
-    public PartType(long id, String name, String type, Provider provider) {
+    public PartType(long id) {
         this.id = id;
-        this.name = name;
-        this.type = type;
-        this.provider = provider;
     }
 
     public long getId() {

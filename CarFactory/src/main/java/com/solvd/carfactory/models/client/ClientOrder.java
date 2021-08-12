@@ -1,19 +1,18 @@
 package com.solvd.carfactory.models.client;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class ClientOrder {
     private long id;
-    private LocalDate creationDate;
+    private LocalDateTime creationDate;
     private double discountPercent;
-    private LocalDate deliveryDate;
+    private LocalDateTime deliveryDate;
     private Client client;
 
     public ClientOrder() {
     }
-    public ClientOrder(long id, LocalDate creationDate) {
+    public ClientOrder(long id) {
         this.id = id;
-        this.creationDate = creationDate;
     }
 
     public long getId() {
@@ -22,10 +21,10 @@ public class ClientOrder {
     public void setId(long id) {
         this.id = id;
     }
-    public LocalDate getCreationDate() {
+    public LocalDateTime getCreationDate() {
         return creationDate;
     }
-    public void setCreationDate(LocalDate creationDate) {
+    public void setCreationDate(LocalDateTime creationDate) {
         this.creationDate = creationDate;
     }
     public double getDiscountPercent() {
@@ -34,10 +33,10 @@ public class ClientOrder {
     public void setDiscountPercent(double discountPercent) {
         this.discountPercent = discountPercent;
     }
-    public LocalDate getDeliveryDate() {
+    public LocalDateTime getDeliveryDate() {
         return deliveryDate;
     }
-    public void setDeliveryDate(LocalDate deliveryDate) {
+    public void setDeliveryDate(LocalDateTime deliveryDate) {
         this.deliveryDate = deliveryDate;
     }
     public Client getClient() {
