@@ -23,4 +23,11 @@ public class EmployeeService implements IEmployeeService {
         employee.setDepartment(departmentService.getDepartmentById(employee.getDepartment().getId()));
         return employee;
     }
+
+    @Override
+    public Employee getEmployeeByIdNoDept(long id) {
+        Employee employee = employeeDAO.getItemById(id);
+        employee.setAddress(addressService.getAddressById(employee.getAddress().getId()));
+        return null;
+    }
 }

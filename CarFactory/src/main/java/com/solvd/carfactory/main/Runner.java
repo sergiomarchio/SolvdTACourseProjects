@@ -11,6 +11,7 @@ import com.solvd.carfactory.sax.*;
 import com.solvd.carfactory.services.ICityService;
 import com.solvd.carfactory.services.impl.CarModelService;
 import com.solvd.carfactory.services.impl.CityService;
+import com.solvd.carfactory.services.impl.DepartmentService;
 import org.apache.log4j.Logger;
 
 public class Runner {
