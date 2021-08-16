@@ -1,10 +1,12 @@
 package com.solvd.carfactory.models.location;
 
 
+import com.fasterxml.jackson.annotation.JsonRootName;
 import jakarta.xml.bind.annotation.*;
 
 @XmlRootElement(name = "city")
 @XmlAccessorType(XmlAccessType.FIELD)
+@JsonRootName("city")
 public class City {
     @XmlAttribute(name = "id")
     private long id;

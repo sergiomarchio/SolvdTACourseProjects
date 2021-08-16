@@ -1,5 +1,11 @@
 package com.solvd.carfactory.models.car;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonRootName;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.solvd.carfactory.jackson.YearDeserializer;
+import com.solvd.carfactory.jackson.YearSerializer;
 import com.solvd.carfactory.jaxb.YearAdapter;
 import com.solvd.carfactory.models.supply.PaintColor;
 import jakarta.xml.bind.annotation.*;
@@ -11,6 +17,7 @@ import java.util.List;
 
 @XmlRootElement(name = "car_model")
 @XmlAccessorType(XmlAccessType.FIELD)
+@JsonRootName("carModel")
 public class CarModel {
     @XmlAttribute(name = "id")
     private long id;
@@ -20,6 +27,8 @@ public class CarModel {
     private String type;
     @XmlElement(name = "year")
     @XmlJavaTypeAdapter(YearAdapter.class)
+    @JsonSerialize(using = YearSerializer.class)
+    @JsonDeserialize(using = YearDeserializer.class)
     private Year year;
     @XmlElement(name = "fuel_type")
     private String fuelType;

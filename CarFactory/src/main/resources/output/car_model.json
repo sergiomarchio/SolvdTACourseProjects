@@ -1,0 +1,87 @@
+{
+  "carModel" : {
+    "id" : 1,
+    "name" : "Model 3",
+    "type" : "Sedan",
+    "year" : null,
+    "fuelType" : "Electric",
+    "unitaryPrice" : 27000.0,
+    "brand" : {
+      "id" : 1,
+      "name" : "Tesla"
+    },
+    "paintColors" : [ {
+      "id" : 1,
+      "name" : "Onyx",
+      "provider" : {
+        "id" : 3,
+        "name" : "Vincent RGB",
+        "email" : "van@go.com",
+        "phone" : "1863568",
+        "address" : {
+          "id" : 3,
+          "street" : "Manet Av.",
+          "number" : "1010",
+          "deptNumber" : null,
+          "zipCode" : "4433",
+          "city" : {
+            "id" : 2,
+            "name" : "Paris",
+            "country" : {
+              "id" : 3,
+              "name" : "France"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 4,
+      "name" : "Cherry",
+      "provider" : {
+        "id" : 3,
+        "name" : "Vincent RGB",
+        "email" : "van@go.com",
+        "phone" : "1863568",
+        "address" : {
+          "id" : 3,
+          "street" : "Manet Av.",
+          "number" : "1010",
+          "deptNumber" : null,
+          "zipCode" : "4433",
+          "city" : {
+            "id" : 2,
+            "name" : "Paris",
+            "country" : {
+              "id" : 3,
+              "name" : "France"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 3,
+      "name" : "Silver",
+      "provider" : {
+        "id" : 3,
+        "name" : "Vincent RGB",
+        "email" : "van@go.com",
+        "phone" : "1863568",
+        "address" : {
+          "id" : 3,
+          "street" : "Manet Av.",
+          "number" : "1010",
+          "deptNumber" : null,
+          "zipCode" : "4433",
+          "city" : {
+            "id" : 2,
+            "name" : "Paris",
+            "country" : {
+              "id" : 3,
+              "name" : "France"
+            }
+          }
+        }
+      }
+    } ]
+  }
+}

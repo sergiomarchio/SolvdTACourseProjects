@@ -1,10 +1,12 @@
 package com.solvd.carfactory.models.supply;
 
+import com.fasterxml.jackson.annotation.JsonRootName;
 import com.solvd.carfactory.models.location.Address;
 import jakarta.xml.bind.annotation.*;
 
 @XmlRootElement(name = "provider")
 @XmlAccessorType(XmlAccessType.FIELD)
+@JsonRootName("provider")
 public class Provider {
     @XmlAttribute(name = "id")
     private long id;

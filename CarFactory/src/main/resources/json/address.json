@@ -1,0 +1,17 @@
+{
+  "address": {
+    "id": 404,
+    "street": "Faraday",
+    "number": "96485",
+    "deptNumber": "",
+    "zipCode": "C000",
+    "city": {
+      "id": 51,
+      "name": "Buenos Aires",
+      "country": {
+        "id": 200,
+        "name": "Argentina"
+      }
+    }
+  }
+}

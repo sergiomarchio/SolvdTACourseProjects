@@ -1,9 +1,11 @@
 package com.solvd.carfactory.models.supply;
 
+import com.fasterxml.jackson.annotation.JsonRootName;
 import jakarta.xml.bind.annotation.*;
 
 @XmlRootElement(name = "paint_color")
 @XmlAccessorType(XmlAccessType.FIELD)
+@JsonRootName("paintColor")
 public class PaintColor {
     @XmlAttribute(name = "id")
     private long id;
