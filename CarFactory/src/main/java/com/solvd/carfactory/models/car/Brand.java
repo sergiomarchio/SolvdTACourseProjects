@@ -1,7 +1,13 @@
 package com.solvd.carfactory.models.car;
 
+import jakarta.xml.bind.annotation.*;
+
+@XmlRootElement(name = "brand")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Brand {
+    @XmlAttribute(name = "id")
     private long id;
+    @XmlElement(name = "name")
     private String name;
 
     public Brand() {

@@ -3002,3 +3002,139 @@ java.lang.NoSuchMethodException: java.util.LinkedList.getPaintColor()
 [main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - </car_model>
 [main] DEBUG com.solvd.carfactory.sax.UniversalSAX  - Document ended
 [main] DEBUG com.solvd.carfactory.main.Runner  - Car model: Just A Model, color Fuchsia
+[main] ERROR com.solvd.carfactory.main.Runner  - JAXB error:
+javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+[main] ERROR com.solvd.carfactory.main.Runner  - JAXB error:
+javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+[main] ERROR com.solvd.carfactory.main.Runner  - JAXB error:
+javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+[main] ERROR com.solvd.carfactory.main.Runner  - JAXB error:
+javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+[main] ERROR com.solvd.carfactory.main.Runner  - JAXB error:
+jakarta.xml.bind.JAXBException: Implementation of Jakarta XML Binding-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: org.glassfish.jaxb.runtime.v2.ContextFactory]
+[main] ERROR com.solvd.carfactory.main.Runner  - JAXB error:
+org.glassfish.jaxb.runtime.v2.runtime.IllegalAnnotationsException: 11 counts of IllegalAnnotationExceptions
+Class has two properties of the same name "city"
+	this problem is related to the following location:
+		at public com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.getCity()
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "deptNumber"
+	this problem is related to the following location:
+		at public java.lang.String com.solvd.carfactory.models.location.Address.getDeptNumber()
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private java.lang.String com.solvd.carfactory.models.location.Address.deptNumber
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "id"
+	this problem is related to the following location:
+		at public long com.solvd.carfactory.models.location.Address.getId()
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private long com.solvd.carfactory.models.location.Address.id
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "number"
+	this problem is related to the following location:
+		at public java.lang.String com.solvd.carfactory.models.location.Address.getNumber()
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private java.lang.String com.solvd.carfactory.models.location.Address.number
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "street"
+	this problem is related to the following location:
+		at public java.lang.String com.solvd.carfactory.models.location.Address.getStreet()
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private java.lang.String com.solvd.carfactory.models.location.Address.street
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "zipCode"
+	this problem is related to the following location:
+		at public java.lang.String com.solvd.carfactory.models.location.Address.getZipCode()
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private java.lang.String com.solvd.carfactory.models.location.Address.zipCode
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "country"
+	this problem is related to the following location:
+		at public com.solvd.carfactory.models.location.Country com.solvd.carfactory.models.location.City.getCountry()
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private com.solvd.carfactory.models.location.Country com.solvd.carfactory.models.location.City.country
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "id"
+	this problem is related to the following location:
+		at public long com.solvd.carfactory.models.location.City.getId()
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private long com.solvd.carfactory.models.location.City.id
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "name"
+	this problem is related to the following location:
+		at public java.lang.String com.solvd.carfactory.models.location.City.getName()
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private java.lang.String com.solvd.carfactory.models.location.City.name
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "id"
+	this problem is related to the following location:
+		at public long com.solvd.carfactory.models.location.Country.getId()
+		at com.solvd.carfactory.models.location.Country
+		at private com.solvd.carfactory.models.location.Country com.solvd.carfactory.models.location.City.country
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private long com.solvd.carfactory.models.location.Country.id
+		at com.solvd.carfactory.models.location.Country
+		at private com.solvd.carfactory.models.location.Country com.solvd.carfactory.models.location.City.country
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+Class has two properties of the same name "name"
+	this problem is related to the following location:
+		at public java.lang.String com.solvd.carfactory.models.location.Country.getName()
+		at com.solvd.carfactory.models.location.Country
+		at private com.solvd.carfactory.models.location.Country com.solvd.carfactory.models.location.City.country
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+	this problem is related to the following location:
+		at private java.lang.String com.solvd.carfactory.models.location.Country.name
+		at com.solvd.carfactory.models.location.Country
+		at private com.solvd.carfactory.models.location.Country com.solvd.carfactory.models.location.City.country
+		at com.solvd.carfactory.models.location.City
+		at private com.solvd.carfactory.models.location.City com.solvd.carfactory.models.location.Address.city
+		at com.solvd.carfactory.models.location.Address
+
+[main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled address: Faraday 96485, Buenos Aires, com.solvd.carfactory.models.location.Country@58fdd99
+[main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled address: Faraday 96485, Buenos Aires, Argentina
+[main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled address: Faraday 96485, Buenos Aires, Argentina
+[main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled car model: Model 3 2020Onyx
+[main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled car model: Model 3 2020 Onyx
+[main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled car model: Model 3 2020 Onyx
+[main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled car model: Model 3 2020 Onyx
+[main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled car model: Model 3 2020 Onyx

@@ -1,11 +1,22 @@
 package com.solvd.carfactory.models.location;
 
+
+import jakarta.xml.bind.annotation.*;
+
+@XmlRootElement(name = "address")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Address {
+    @XmlAttribute(name = "id")
     private long id;
+    @XmlElement(name = "street")
     private String street;
+    @XmlElement(name = "number")
     private String number;
+    @XmlElement(name = "dept_number")
     private String deptNumber;
+    @XmlElement(name = "zip_code")
     private String zipCode;
+    @XmlElement(name = "city")
     private City city;
 
     public Address() {

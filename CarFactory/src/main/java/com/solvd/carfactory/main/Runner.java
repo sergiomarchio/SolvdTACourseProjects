@@ -11,8 +11,12 @@ import com.solvd.carfactory.sax.*;
 import com.solvd.carfactory.services.ICityService;
 import com.solvd.carfactory.services.impl.CarModelService;
 import com.solvd.carfactory.services.impl.CityService;
-import com.solvd.carfactory.services.impl.DepartmentService;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.Unmarshaller;
 import org.apache.log4j.Logger;
+import java.io.File;
 
 public class Runner {
     private final static Logger LOGGER = Logger.getLogger(Runner.class);
@@ -72,6 +76,47 @@ public class Runner {
                 new CarModelService().getCarModelById(1));
     }
 
+    public static void jaxbAddress(){
+        try {
+            JAXBContext c = JAXBContext.newInstance(Address.class);
+            Unmarshaller u = c.createUnmarshaller();
+            Address address = (Address) u.unmarshal(new File("src/main/resources/xml/address.xml"));
+
+            LOGGER.debug("Unmarshalled address: " + address.getStreet() + " " + address.getNumber()
+            + ", " + address.getCity().getName() + ", " + address.getCity().getCountry().getName());
+
+            Marshaller m = c.createMarshaller();
+            m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+            m.marshal(address, new File("src/main/resources/output/address_marshall.xml"));
+
+        } catch (JAXBException e) {
+            LOGGER.error("JAXB error:\n" + e);
+        }
+    }
+
+    public static void jaxbCarModel(){
+        String carModelXml = "src/main/resources/output/car_model_marshal.xml";
+
+        try {
+            JAXBContext c = JAXBContext.newInstance(CarModel.class);
+
+            Marshaller m = c.createMarshaller();
+            m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+            m.marshal(new CarModelService().getCarModelById(1),
+                    new File(carModelXml));
+
+            Unmarshaller u = c.createUnmarshaller();
+            CarModel carModel = (CarModel) u.unmarshal(new File(carModelXml));
+
+            LOGGER.debug("Unmarshalled car model: " + carModel.getName() + " " + carModel.getYear()
+                        + " " + carModel.getPaintColors().get(0).getName());
+
+        } catch (JAXBException e) {
+            LOGGER.error("JAXB error:\n" + e);
+        }
+
+    }
+
     public final static void main(String[] args){
         //crudOperations();
 
@@ -79,6 +124,10 @@ public class Runner {
 
         //xmlWrite();
 
-        saxWithList();
+        //saxWithList();
+
+        //jaxbAddress();
+
+        jaxbCarModel();
     }
 }

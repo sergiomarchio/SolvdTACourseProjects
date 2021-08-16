@@ -1,8 +1,15 @@
 package com.solvd.carfactory.models.supply;
 
+import jakarta.xml.bind.annotation.*;
+
+@XmlRootElement(name = "paint_color")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class PaintColor {
+    @XmlAttribute(name = "id")
     private long id;
+    @XmlElement(name = "name")
     private String name;
+    @XmlElement(name = "provider")
     private Provider provider;
 
     public PaintColor() {

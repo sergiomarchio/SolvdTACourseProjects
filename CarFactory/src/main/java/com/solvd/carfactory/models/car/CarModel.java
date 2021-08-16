@@ -1,19 +1,34 @@
 package com.solvd.carfactory.models.car;
 
+import com.solvd.carfactory.jaxb.YearAdapter;
 import com.solvd.carfactory.models.supply.PaintColor;
+import jakarta.xml.bind.annotation.*;
+import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import java.time.Year;
 import java.util.LinkedList;
 import java.util.List;
 
+@XmlRootElement(name = "car_model")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class CarModel {
+    @XmlAttribute(name = "id")
     private long id;
+    @XmlElement(name = "name")
     private String name;
+    @XmlElement(name = "type")
     private String type;
+    @XmlElement(name = "year")
+    @XmlJavaTypeAdapter(YearAdapter.class)
     private Year year;
+    @XmlElement(name = "fuel_type")
     private String fuelType;
+    @XmlElement(name = "unitary_price")
     private double unitaryPrice;
+    @XmlElement(name = "brand")
     private Brand brand;
+    @XmlElementWrapper(name = "paint_colors")
+    @XmlElement(name = "paint_color")
     private List<PaintColor> paintColors;
 
     public CarModel() {

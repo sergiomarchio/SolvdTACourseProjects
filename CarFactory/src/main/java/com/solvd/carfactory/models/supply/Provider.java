@@ -1,12 +1,20 @@
 package com.solvd.carfactory.models.supply;
 
 import com.solvd.carfactory.models.location.Address;
+import jakarta.xml.bind.annotation.*;
 
+@XmlRootElement(name = "provider")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Provider {
+    @XmlAttribute(name = "id")
     private long id;
+    @XmlElement(name = "name")
     private String name;
+    @XmlElement(name = "email")
     private String email;
+    @XmlElement(name = "phone")
     private String phone;
+    @XmlElement(name = "address")
     private Address address;
 
     public Provider() {
