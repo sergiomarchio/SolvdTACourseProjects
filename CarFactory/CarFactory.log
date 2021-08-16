@@ -3138,3 +3138,23 @@ Class has two properties of the same name "name"
 [main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled car model: Model 3 2020 Onyx
 [main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled car model: Model 3 2020 Onyx
 [main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled car model: Model 3 2020 Onyx
+[main] ERROR com.solvd.carfactory.main.Runner  - Error reading JSON file
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "address" (class com.solvd.carfactory.models.location.Address), not marked as ignorable (6 known properties: "street", "number", "id", "deptNumber", "city", "zipCode"])
+ at [Source: (File); line: 2, column: 15] (through reference chain: com.solvd.carfactory.models.location.Address["address"])
+[main] ERROR com.solvd.carfactory.main.Runner  - Error reading JSON file
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "address" (class com.solvd.carfactory.models.location.Address), not marked as ignorable (6 known properties: "street", "number", "id", "deptNumber", "city", "zipCode"])
+ at [Source: (File); line: 2, column: 15] (through reference chain: com.solvd.carfactory.models.location.Address["address"])
+[main] DEBUG com.solvd.carfactory.main.Runner  - Read address from JSON file: Faraday 96485, Buenos Aires, Argentina
+[main] DEBUG com.solvd.carfactory.main.Runner  - Unmarshalled address: Faraday 96485, Buenos Aires, Argentina
+[main] ERROR com.solvd.carfactory.main.Runner  - Error writing json file src/main/resources/output/car_model.json
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time type `java.time.Year` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.solvd.carfactory.models.car.CarModel["year"])
+[main] ERROR com.solvd.carfactory.main.Runner  - Error reading json file src/main/resources/output/car_model.json
+com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input within/between Object entries
+ at [Source: (File); line: 6, column: 11]
+[main] ERROR com.solvd.carfactory.main.Runner  - Error writing json file src/main/resources/output/car_model.json
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time type `java.time.Year` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.solvd.carfactory.models.car.CarModel["year"])
+[main] ERROR com.solvd.carfactory.main.Runner  - Error reading json file src/main/resources/output/car_model.json
+com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input within/between Object entries
+ at [Source: (File); line: 6, column: 11]
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model read form json: Model 3 2020 Onyx
+[main] DEBUG com.solvd.carfactory.main.Runner  - Car model read form json: Model 3 null Onyx

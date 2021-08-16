@@ -1,9 +1,11 @@
 package com.solvd.carfactory.models.car;
 
+import com.fasterxml.jackson.annotation.JsonRootName;
 import jakarta.xml.bind.annotation.*;
 
 @XmlRootElement(name = "brand")
 @XmlAccessorType(XmlAccessType.FIELD)
+@JsonRootName("brand")
 public class Brand {
     @XmlAttribute(name = "id")
     private long id;

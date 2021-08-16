@@ -1,5 +1,8 @@
 package com.solvd.carfactory.main;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import com.solvd.carfactory.connectionpool.ConnectionPool;
 import com.solvd.carfactory.dao.ICountryDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.CountryDAO;
@@ -16,12 +19,14 @@ import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
 import jakarta.xml.bind.Unmarshaller;
 import org.apache.log4j.Logger;
+
 import java.io.File;
+import java.io.IOException;
 
 public class Runner {
     private final static Logger LOGGER = Logger.getLogger(Runner.class);
 
-    private static void crudOperations(){
+    private static void crudOperations() {
         ICountryDAO countryDAO = new CountryDAO();
 
         Country japan = new Country();
@@ -53,7 +58,7 @@ public class Runner {
         ConnectionPool.getInstance().closeAll();
     }
 
-    private static void magicSax(){
+    private static void magicSax() {
         Country country = XMLRead.xmlRead("src/main/resources/xml/country.xml", new UniversalSAX<Country>());
         LOGGER.debug("Read Country: " + country.getId() + " - " + country.getName());
 
@@ -61,12 +66,12 @@ public class Runner {
         LOGGER.debug("Read City: " + city.getId() + " - " + city.getName() + " - " + city.getCountry().getName());
     }
 
-    private static void xmlWrite(){
+    private static void xmlWrite() {
         Address address = XMLRead.xmlRead("src/main/resources/xml/address.xml", new UniversalSAX<Address>());
         new XMLWrite().xmlWrite("src/main/resources/output/test.xml", address);
     }
 
-    private static void saxWithList(){
+    private static void saxWithList() {
         CarModel carModel = XMLRead.xmlRead("src/main/resources/xml/car_model.xml", new UniversalSAX<>());
         LOGGER.debug("Car model: " + carModel.getName() + ", color " + carModel.getPaintColors().get(0).getName());
 
@@ -76,14 +81,14 @@ public class Runner {
                 new CarModelService().getCarModelById(1));
     }
 
-    public static void jaxbAddress(){
+    public static void jaxbAddress() {
         try {
             JAXBContext c = JAXBContext.newInstance(Address.class);
             Unmarshaller u = c.createUnmarshaller();
             Address address = (Address) u.unmarshal(new File("src/main/resources/xml/address.xml"));
 
             LOGGER.debug("Unmarshalled address: " + address.getStreet() + " " + address.getNumber()
-            + ", " + address.getCity().getName() + ", " + address.getCity().getCountry().getName());
+                    + ", " + address.getCity().getName() + ", " + address.getCity().getCountry().getName());
 
             Marshaller m = c.createMarshaller();
             m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
@@ -94,7 +99,7 @@ public class Runner {
         }
     }
 
-    public static void jaxbCarModel(){
+    public static void jaxbCarModel() {
         String carModelXml = "src/main/resources/output/car_model_marshal.xml";
 
         try {
@@ -109,7 +114,7 @@ public class Runner {
             CarModel carModel = (CarModel) u.unmarshal(new File(carModelXml));
 
             LOGGER.debug("Unmarshalled car model: " + carModel.getName() + " " + carModel.getYear()
-                        + " " + carModel.getPaintColors().get(0).getName());
+                    + " " + carModel.getPaintColors().get(0).getName());
 
         } catch (JAXBException e) {
             LOGGER.error("JAXB error:\n" + e);
@@ -117,17 +122,65 @@ public class Runner {
 
     }
 
-    public final static void main(String[] args){
-        //crudOperations();
+    public static void jacksonAddress() {
+        ObjectMapper om = new ObjectMapper();
+        om.enable(SerializationFeature.WRAP_ROOT_VALUE);
+        om.enable(DeserializationFeature.UNWRAP_ROOT_VALUE);
+        om.enable(SerializationFeature.INDENT_OUTPUT);
 
-        //magicSax();
+        Address address = null;
+        try {
+            address = om.readValue(new File("src/main/resources/json/address.json"), Address.class);
+        } catch (IOException e) {
+            LOGGER.error("Error reading JSON file\n" + e);
+        }
 
-        //xmlWrite();
+        LOGGER.debug("Read address from JSON file: " + address.getStreet() + " " + address.getNumber()
+                + ", " + address.getCity().getName() + ", " + address.getCity().getCountry().getName());
 
-        //saxWithList();
+        try {
+            om.writeValue(new File("src/main/resources/output/address.json"), address);
+        } catch (IOException e) {
+            LOGGER.error("Error writing JSON file\n" + e);
+        }
+    }
 
-        //jaxbAddress();
+    public static void jacksonCarModel() {
+        ObjectMapper om = new ObjectMapper();
+        om.enable(SerializationFeature.WRAP_ROOT_VALUE);
+        om.enable(DeserializationFeature.UNWRAP_ROOT_VALUE);
+        om.enable(SerializationFeature.INDENT_OUTPUT);
 
+        String fileName = "src/main/resources/output/car_model.json";
+
+        try {
+            om.writeValue(new File(fileName), new CarModelService().getCarModelById(1));
+        } catch (IOException e) {
+            LOGGER.error("Error writing json file " + fileName + "\n" + e);
+        }
+
+        CarModel carModel = null;
+        try {
+            carModel = om.readValue(new File(fileName), CarModel.class);
+        } catch (IOException e) {
+            LOGGER.error("Error reading json file " + fileName + "\n" + e);
+        }
+
+        LOGGER.debug("Car model read form json: " + carModel.getName() + " " + carModel.getYear()
+                + " " + carModel.getPaintColors().get(0).getName());
+    }
+
+    public final static void main(String[] args) {
+        crudOperations();
+
+        magicSax();
+        xmlWrite();
+        saxWithList();
+
+        jaxbAddress();
         jaxbCarModel();
+
+        jacksonAddress();
+        jacksonCarModel();
     }
 }
