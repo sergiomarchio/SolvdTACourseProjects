@@ -53,4 +53,9 @@ public class PaintColorDAO extends AbstractMysqlJdbcDAO<PaintColor> implements I
         ps.setString(1, item.getName());
         ps.setLong(2, item.getProvider().getId());
     }
+
+    @Override
+    public PaintColor getNestedPaintColorById(long id) {
+        return null;
+    }
 }

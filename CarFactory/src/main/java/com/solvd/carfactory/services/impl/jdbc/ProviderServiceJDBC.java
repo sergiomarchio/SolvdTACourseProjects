@@ -1,14 +1,14 @@
-package com.solvd.carfactory.services.impl;
+package com.solvd.carfactory.services.impl.jdbc;
 
 import com.solvd.carfactory.dao.IProviderDAO;
+import com.solvd.carfactory.dao.mysql.jdbc.ProviderDAO;
 import com.solvd.carfactory.models.supply.Provider;
 import com.solvd.carfactory.services.IAddressService;
 import com.solvd.carfactory.services.IProviderService;
-import com.solvd.carfactory.util.mybatis.MybatisUtil;
 
-public class ProviderService implements IProviderService {
-    private IProviderDAO providerDAO = MybatisUtil.getIDao(IProviderDAO.class); //new ProviderDAO();
-    private IAddressService addressService = new AddressService();
+public class ProviderServiceJDBC implements IProviderService {
+    private IProviderDAO providerDAO = new ProviderDAO();
+    private IAddressService addressService = new AddressServiceJDBC();
 
     @Override
     public Provider getProviderById(long id) {

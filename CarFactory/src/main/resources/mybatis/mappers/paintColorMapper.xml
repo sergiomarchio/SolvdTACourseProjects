@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.carfactory.dao.IPaintColorDAO">
+
+    <insert id="createItem" useGeneratedKeys="true" keyProperty="id">
+        <![CDATA[
+        INSERT INTO paint_colors(name)
+        VALUES(#{name})
+        ]]>
+    </insert>
+
+    <update id="updateItem">
+        <![CDATA[
+        UPDATE paint_colors SET name=#{name}
+        WHERE id=#{id}
+        ]]>
+    </update>
+
+    <delete id="deleteItem">
+        <![CDATA[
+        DELETE FROM paint_colors WHERE id=#{id}
+        ]]>
+    </delete>
+
+    <select id="getItemById" resultMap="paintColorResultMap">
+        <![CDATA[
+        SELECT id, name, provider_id
+        FROM paint_colors WHERE id=#{id}
+        ]]>
+    </select>
+
+    <resultMap id="paintColorResultMap" type="com.solvd.carfactory.models.supply.PaintColor" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <association property="provider"
+                     resultMap="com.solvd.carfactory.dao.IProviderDAO.providerResultMap"
+                     columnPrefix="provider_"/>
+    </resultMap>
+
+    <select id="getNestedPaintColorById" resultMap="paintColorNestedResultMap">
+        <![CDATA[
+        SELECT id, name, provider_id
+        FROM paint_colors WHERE id=#{id}
+        ]]>
+    </select>
+
+    <resultMap id="paintColorNestedResultMap" type="com.solvd.carfactory.models.supply.PaintColor" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <association property="provider"
+                     column="provider_id"
+                     select="com.solvd.carfactory.dao.IProviderDAO.getNestedProviderById"/>
+    </resultMap>
+
+</mapper>

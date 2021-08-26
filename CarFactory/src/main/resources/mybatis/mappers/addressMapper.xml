@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.carfactory.dao.IAddressDAO">
+
+    <insert id="createItem" useGeneratedKeys="true" keyProperty="id">
+        <![CDATA[
+        INSERT INTO addresses(street, number, dept_number, zip_code)
+        VALUES(#{street} #{number} #{dept_number} #{zip_code})
+        ]]>
+    </insert>
+
+    <update id="updateItem">
+        <![CDATA[
+        UPDATE addresses SET street=#{street} number=#{number} dept_number=#{dept_number} zip_code=#{zip_code}
+        WHERE id=#{id}
+        ]]>
+    </update>
+
+    <delete id="deleteItem">
+        <![CDATA[
+        DELETE FROM addresses WHERE id=#{id}
+        ]]>
+    </delete>
+
+    <select id="getItemById" resultMap="addressResultMap">
+        <![CDATA[
+        SELECT id, street, number, dept_number, zip_code, city_id
+        FROM addresses WHERE id=#{id}
+        ]]>
+    </select>
+
+    <select id="getFullAddressById" resultMap="addressResultMap">
+        <![CDATA[
+        SELECT a.id AS id,
+               a.street AS street,
+               a.number AS number,
+               a.dept_number AS dept_number,
+               a.zip_code AS zip_code,
+               a.city_id AS city_id,
+               c.id AS city_id,
+               c.name AS city_name,
+               co.id AS city_country_id,
+               co.name AS city_country_name
+        FROM addresses a
+        LEFT JOIN cities c ON c.id=a.city_id
+        LEFT JOIN countries co ON co.id=c.country_id
+        WHERE a.id=#{id}
+        ]]>
+    </select>
+
+    <resultMap id="addressResultMap" type="com.solvd.carfactory.models.location.Address" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="street" property="street"/>
+        <result column="number" property="number"/>
+        <result column="dept_number" property="deptNumber"/>
+        <result column="zip_code" property="zipCode"/>
+        <association property="city"
+                     resultMap="com.solvd.carfactory.dao.ICityDAO.cityResultMap"
+                     columnPrefix="city_"/>
+    </resultMap>
+
+    <select id="getNestedAddressById" resultMap="addressNestedResultMap">
+        <![CDATA[
+        SELECT id, street, number, dept_number, zip_code, city_id
+        FROM addresses WHERE id=#{id}
+        ]]>
+    </select>
+
+    <resultMap id="addressNestedResultMap" type="com.solvd.carfactory.models.location.Address" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="street" property="street"/>
+        <result column="number" property="number"/>
+        <result column="dept_number" property="deptNumber"/>
+        <result column="zip_code" property="zipCode"/>
+        <association property="city"
+                     column="city_id"
+                     select="com.solvd.carfactory.dao.ICityDAO.getNestedCityById"/>
+    </resultMap>
+</mapper>

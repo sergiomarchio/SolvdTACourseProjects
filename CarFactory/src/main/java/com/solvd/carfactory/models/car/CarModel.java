@@ -48,6 +48,20 @@ public class CarModel {
         this.paintColors = new LinkedList<>();
     }
 
+    @Override
+    public String toString() {
+        return "CarModel{" +
+                "id:" + id +
+                ", name:'" + name + '\'' +
+                ", type:'" + type + '\'' +
+                ", year:" + year +
+                ", fuelType:'" + fuelType + '\'' +
+                ", unitaryPrice:" + unitaryPrice +
+                ", brand:" + brand +
+                ", paintColors:" + paintColors +
+                '}';
+    }
+
     public long getId() {
         return id;
     }

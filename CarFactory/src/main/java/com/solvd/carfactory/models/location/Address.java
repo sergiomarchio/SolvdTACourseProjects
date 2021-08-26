@@ -27,6 +27,18 @@ public class Address {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Address{" +
+                "id:" + id +
+                ", street:'" + street + '\'' +
+                ", number:'" + number + '\'' +
+                ", deptNumber:'" + deptNumber + '\'' +
+                ", zipCode:'" + zipCode + '\'' +
+                ", city:" + city +
+                '}';
+    }
+
     public long getId() {
         return id;
     }

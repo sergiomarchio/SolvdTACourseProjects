@@ -20,6 +20,15 @@ public class PaintColor {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "PaintColor{" +
+                "id:" + id +
+                ", name:'" + name + '\'' +
+                ", provider:" + provider +
+                '}';
+    }
+
     public long getId() {
         return id;
     }

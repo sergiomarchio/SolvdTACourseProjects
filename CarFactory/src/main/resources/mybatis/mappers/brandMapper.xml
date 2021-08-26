@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.carfactory.dao.IBrandDAO">
+
+    <insert id="createItem" useGeneratedKeys="true" keyProperty="id">
+        <![CDATA[
+        INSERT INTO brands(name)
+        VALUES(#{name})
+        ]]>
+    </insert>
+
+    <update id="updateItem">
+        <![CDATA[
+        UPDATE brands SET name=#{name}
+        WHERE id=#{id}
+        ]]>
+    </update>
+
+    <delete id="deleteItem">
+        <![CDATA[
+        DELETE FROM brands WHERE id=#{id}
+        ]]>
+    </delete>
+
+    <select id="getItemById" resultMap="brandResultMap">
+        <![CDATA[
+        SELECT id, name
+        FROM brands WHERE id=#{id}
+        ]]>
+    </select>
+
+    <resultMap id="brandResultMap" type="com.solvd.carfactory.models.car.Brand" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+    </resultMap>
+
+</mapper>

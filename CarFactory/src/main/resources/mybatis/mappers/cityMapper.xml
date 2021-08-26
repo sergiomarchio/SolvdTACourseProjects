@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.carfactory.dao.ICityDAO">
+
+    <insert id="createItem" useGeneratedKeys="true" keyProperty="id">
+        <![CDATA[INSERT INTO cities(name) VALUES(#{name})]]>
+    </insert>
+
+    <update id="updateItem">
+        <![CDATA[
+        UPDATE cities SET name=#{name} WHERE id=#{id}
+        ]]>
+    </update>
+
+    <delete id="deleteItem">
+        <![CDATA[
+        DELETE FROM cities WHERE id=#{id}
+        ]]>
+    </delete>
+
+    <select id="getItemById" resultMap="cityResultMap">
+        <![CDATA[
+        SELECT id,
+               name AS name,
+               country_id AS country_id
+               FROM cities city
+               WHERE id=#{id}
+        ]]>
+    </select>
+
+    <select id="getFullCityById" resultMap="cityResultMap">
+        <![CDATA[
+        SELECT city.id AS id,
+               city.name AS name,
+               city.country_id AS country_id,
+               co.name AS country_name
+               FROM cities city
+               LEFT JOIN countries co ON co.id=city.country_id
+               WHERE city.id=#{id}
+        ]]>
+    </select>
+
+    <resultMap id="cityResultMap" type="com.solvd.carfactory.models.location.City" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <association property="country"
+                     resultMap="com.solvd.carfactory.dao.ICountryDAO.countryResultMap"
+                     columnPrefix="country_"/>
+    </resultMap>
+
+    <select id="getNestedCityById" resultMap="cityNestedResultMap">
+        <![CDATA[
+        SELECT id,
+               name AS name,
+               country_id AS country_id
+               FROM cities city
+               WHERE id=#{id}
+        ]]>
+    </select>
+    
+    <resultMap id="cityNestedResultMap" type="com.solvd.carfactory.models.location.City" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <association property="country"
+                     column="country_id"
+                     select="com.solvd.carfactory.dao.ICountryDAO.getItemById"/>
+    </resultMap>
+
+</mapper>

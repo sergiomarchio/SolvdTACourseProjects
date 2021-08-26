@@ -4,16 +4,23 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.solvd.carfactory.connectionpool.ConnectionPool;
+import com.solvd.carfactory.dao.IAddressDAO;
+import com.solvd.carfactory.dao.ICarModelDAO;
+import com.solvd.carfactory.dao.ICityDAO;
 import com.solvd.carfactory.dao.ICountryDAO;
 import com.solvd.carfactory.dao.mysql.jdbc.CountryDAO;
 import com.solvd.carfactory.models.car.CarModel;
 import com.solvd.carfactory.models.location.Address;
 import com.solvd.carfactory.models.location.City;
 import com.solvd.carfactory.models.location.Country;
+import com.solvd.carfactory.models.supply.Provider;
 import com.solvd.carfactory.sax.*;
-import com.solvd.carfactory.services.ICityService;
-import com.solvd.carfactory.services.impl.CarModelService;
-import com.solvd.carfactory.services.impl.CityService;
+import com.solvd.carfactory.services.*;
+import com.solvd.carfactory.services.impl.*;
+import com.solvd.carfactory.services.impl.jdbc.AddressServiceJDBC;
+import com.solvd.carfactory.services.impl.jdbc.CarModelServiceJDBC;
+import com.solvd.carfactory.services.impl.jdbc.CityServiceJDBC;
+import com.solvd.carfactory.util.mybatis.MybatisUtil;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
@@ -51,19 +58,17 @@ public class Runner {
 
         ICityService cityService = new CityService();
         City city = cityService.getCityById(1);
-        LOGGER.debug("Got city from CityService with id: " + city.getId() + " Name: " + city.getName()
-                + " Country: " + city.getCountry().getName());
-
+        LOGGER.debug("Got city from CityService with id: " + city);
 
         ConnectionPool.getInstance().closeAll();
     }
 
     private static void magicSax() {
         Country country = XMLRead.xmlRead("src/main/resources/xml/country.xml", new UniversalSAX<Country>());
-        LOGGER.debug("Read Country: " + country.getId() + " - " + country.getName());
+        LOGGER.debug("Read Country: " + country);
 
         City city = XMLRead.xmlRead("src/main/resources/xml/city.xml", new UniversalSAX<City>());
-        LOGGER.debug("Read City: " + city.getId() + " - " + city.getName() + " - " + city.getCountry().getName());
+        LOGGER.debug("Read City: " + city);
     }
 
     private static void xmlWrite() {
@@ -87,8 +92,7 @@ public class Runner {
             Unmarshaller u = c.createUnmarshaller();
             Address address = (Address) u.unmarshal(new File("src/main/resources/xml/address.xml"));
 
-            LOGGER.debug("Unmarshalled address: " + address.getStreet() + " " + address.getNumber()
-                    + ", " + address.getCity().getName() + ", " + address.getCity().getCountry().getName());
+            LOGGER.debug("Unmarshalled address: " + address);
 
             Marshaller m = c.createMarshaller();
             m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
@@ -100,7 +104,7 @@ public class Runner {
     }
 
     public static void jaxbCarModel() {
-        String carModelXml = "src/main/resources/output/car_model_marshal.xml";
+        String carModelXml = "src/main/resources/output/car_model_marshal_mybatis.xml";
 
         try {
             JAXBContext c = JAXBContext.newInstance(CarModel.class);
@@ -135,8 +139,7 @@ public class Runner {
             LOGGER.error("Error reading JSON file\n" + e);
         }
 
-        LOGGER.debug("Read address from JSON file: " + address.getStreet() + " " + address.getNumber()
-                + ", " + address.getCity().getName() + ", " + address.getCity().getCountry().getName());
+        LOGGER.debug("Read address from JSON file: " + address);
 
         try {
             om.writeValue(new File("src/main/resources/output/address.json"), address);
@@ -170,17 +173,128 @@ public class Runner {
                 + " " + carModel.getPaintColors().get(0).getName());
     }
 
+    public static void mybatisSimpleCrud() {
+        Country c = new CountryService().getCountryById(1);
+        LOGGER.info("Country " + c.getId() + ": " + c.getName());
+
+        Country nepal = new Country();
+        nepal.setName("Nepall");
+        ICountryService countryService = new CountryService();
+        countryService.createCountry(nepal);
+        LOGGER.info("Created country " + nepal.getId() + ": " + nepal.getName());
+
+        nepal.setName("Nepal");
+        countryService.updateCountry(nepal);
+        LOGGER.info("Update statement executed");
+        LOGGER.info("Updated country " + nepal.getId() + ": " + countryService.getCountryById(nepal.getId()));
+
+        countryService.deleteCountry(nepal.getId());
+        LOGGER.info("Deleted country " + nepal.getId() + ": " + nepal.getName());
+
+        LOGGER.info("Trying to read non existent element to check deletion:");
+        countryService.getCountryById(nepal.getId());
+    }
+
+    public static void mybatisNested() {
+        IAddressService addressService = new AddressService();
+        Address a = addressService.getAddressById(1);
+        LOGGER.info(a);
+
+        IProviderService providerService = new ProviderService();
+        Provider p = providerService.getProviderById(1);
+        LOGGER.info("\n" + p);
+    }
+
+    public static void performance() {
+        long time0 = System.currentTimeMillis();
+        new CountryDAO().getItemById(1);
+        long time1 = System.currentTimeMillis();
+        MybatisUtil.getIDao(ICountryDAO.class).getItemById(1);
+        long time2 = System.currentTimeMillis();
+
+        LOGGER.info("\nSimple query."
+                + "\nElapsed time for jdbc: " + (time1 - time0) / 1000f + "s"
+                + "\nElapsed time for mybatis: " + (time2 - time1) / 1000f + "s");
+
+        time0 = System.currentTimeMillis();
+        new CityServiceJDBC().getCityById(1);
+        time1 = System.currentTimeMillis();
+        new CityService().getCityById(1);
+        time2 = System.currentTimeMillis();
+        MybatisUtil.getIDao(ICityDAO.class).getFullCityById(1);
+        long time3 = System.currentTimeMillis();
+        City c = MybatisUtil.getIDao(ICityDAO.class).getNestedCityById(1);
+        long time4 = System.currentTimeMillis();
+
+        LOGGER.info("\nNested select city: " + c);
+
+        LOGGER.info("\n1 nested query."
+                + "\nElapsed time for jdbc: " + (time1 - time0) / 1000f + "s"
+                + "\nElapsed time for mybatis: " + (time2 - time1) / 1000f + "s"
+                + "\nElapsed time for mybatis join: " + (time3 - time2) / 1000f + "s"
+                + "\nElapsed time for mybatis nested select: " + (time4 - time3) / 1000f + "s");
+
+        time0 = System.currentTimeMillis();
+        new AddressServiceJDBC().getAddressById(1);
+        time1 = System.currentTimeMillis();
+        new AddressService().getAddressById(1);
+        time2 = System.currentTimeMillis();
+        Address a = MybatisUtil.getIDao(IAddressDAO.class).getFullAddressById(1);
+        time3 = System.currentTimeMillis();
+        Address na = MybatisUtil.getIDao(IAddressDAO.class).getNestedAddressById(1);
+        time4 = System.currentTimeMillis();
+
+        LOGGER.info("\nFull Address read: " + a);
+        LOGGER.info("\nNested address read: " + na);
+
+        LOGGER.info("\n2 nested query."
+                + "\nElapsed time for jdbc: " + (time1 - time0) / 1000f + "s"
+                + "\nElapsed time for mybatis: " + (time2 - time1) / 1000f + "s"
+                + "\nElapsed time for mybatis join: " + (time3 - time2) / 1000f + "s"
+                + "\nElapsed time for mybatis nested select: " + (time4 - time3) / 1000f + "s");
+
+
+        time0 = System.currentTimeMillis();
+        new CarModelServiceJDBC().getCarModelById(1);
+        time1 = System.currentTimeMillis();
+        new CarModelService().getCarModelById(1);
+        time2 = System.currentTimeMillis();
+        CarModel cm = MybatisUtil.getIDao(ICarModelDAO.class).getFullCarModelById(1);
+        time3 = System.currentTimeMillis();
+        CarModel cmn = MybatisUtil.getIDao(ICarModelDAO.class).getNestedCarModelById(1);
+        time4 = System.currentTimeMillis();
+
+        LOGGER.info("Full car model read: " + cm);
+        LOGGER.info("Nested car model read: " + cmn);
+
+        LOGGER.info("\nMulti nested query with list."
+                + "\nElapsed time for jdbc: " + (time1 - time0) / 1000f + "s"
+                + "\nElapsed time for mybatis: " + (time2 - time1) / 1000f + "s"
+                + "\nElapsed time for mybatis join: " + (time3 - time2) / 1000f + "s"
+                + "\nElapsed time for mybatis nested select: " + (time4 - time3) / 1000f + "s");
+
+    }
+
+
     public final static void main(String[] args) {
-        crudOperations();
+//        crudOperations();
+//
+//        magicSax();
+//        xmlWrite();
+//        saxWithList();
+//
+//        jaxbAddress();
+//        jaxbCarModel();
+//
+//        jacksonAddress();
+//        jacksonCarModel();
 
-        magicSax();
-        xmlWrite();
-        saxWithList();
+//        mybatisSimpleCrud();
+//        mybatisNested();
 
-        jaxbAddress();
-        jaxbCarModel();
+//        performance();
 
-        jacksonAddress();
-        jacksonCarModel();
+        CarModel cmn = MybatisUtil.getIDao(ICarModelDAO.class).getNestedCarModelById(1);
+        LOGGER.info("Nested car model: " + cmn);
     }
 }

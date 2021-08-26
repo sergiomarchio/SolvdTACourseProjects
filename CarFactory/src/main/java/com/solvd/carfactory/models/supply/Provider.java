@@ -25,6 +25,17 @@ public class Provider {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Provider{" +
+                "id:" + id +
+                ", name:'" + name + '\'' +
+                ", email:'" + email + '\'' +
+                ", phone:'" + phone + '\'' +
+                ", address:" + address +
+                '}';
+    }
+
     public long getId() {
         return id;
     }

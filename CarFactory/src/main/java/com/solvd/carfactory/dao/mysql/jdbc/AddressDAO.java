@@ -60,4 +60,14 @@ public class AddressDAO extends AbstractMysqlJdbcDAO<Address> implements IAddres
         ps.setString(4, item.getZipCode());
         ps.setLong(5, item.getCity().getId());
     }
+
+    @Override
+    public Address getFullAddressById(long id) {
+        return null;
+    }
+
+    @Override
+    public Address getNestedAddressById(long id) {
+        return null;
+    }
 }

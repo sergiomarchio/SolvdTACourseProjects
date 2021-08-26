@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.carfactory.dao.ICarModelDAO">
+
+    <insert id="createItem" useGeneratedKeys="true" keyProperty="id">
+        <![CDATA[
+        INSERT INTO car_models(name, type, year, fuel_type, unitary_price)
+        VALUES(#{name} #{type} #{year} #{fuel_type} #{unitary_price})
+        ]]>
+    </insert>
+
+    <update id="updateItem">
+        <![CDATA[
+        UPDATE car_models SET name=#{name} type=#{type} year=#{year} fuel_type=#{fuel_type} unitary_price=#{unitary_price}
+        WHERE id=#{id}
+        ]]>
+    </update>
+
+    <delete id="deleteItem">
+        <![CDATA[
+        DELETE FROM car_models WHERE id=#{id}
+        ]]>
+    </delete>
+
+    <select id="getItemById" resultMap="carModelResultMap">
+        <![CDATA[
+        SELECT cm.id AS id,
+               cm.name AS name,
+               cm.type AS type,
+               cm.year AS year,
+               cm.fuel_type AS fuel_type,
+               cm.unitary_price AS unitary_price,
+               cm.brand_id AS brand_id,
+               pc.id as paint_color_id
+        FROM car_models cm
+        LEFT JOIN model_colors mc ON mc.car_model_id=cm.id
+        LEFT JOIN paint_colors pc ON pc.id=mc.paint_color_id
+        WHERE cm.id=#{id}
+        ]]>
+    </select>
+
+    <select id="getFullCarModelById" resultMap="carModelResultMap">
+        <![CDATA[
+        SELECT cm.id AS id,
+               cm.name AS name,
+               cm.type AS type,
+               cm.year AS year,
+               cm.fuel_type AS fuel_type,
+               cm.unitary_price AS unitary_price,
+               b.id AS brand_id,
+               pc.id AS paint_color_id,
+               pc.name AS paint_color_name,
+               p.id AS paint_color_provider_id,
+               p.name AS paint_color_provider_name,
+               p.email AS paint_color_provider_email,
+               p.phone AS paint_color_provider_phone,
+               a.id AS paint_color_provider_address_id,
+               a.street AS paint_color_provider_address_street,
+               a.number AS paint_color_provider_address_number,
+               a.dept_number AS paint_color_provider_address_dept_number,
+               a.zip_code AS paint_color_provider_address_zip_code,
+               c.id AS paint_color_provider_address_city_id,
+               c.name AS paint_color_provider_address_city_name,
+               co.id AS paint_color_provider_address_city_country_id,
+               co.name AS paint_color_provider_address_city_country_name
+        FROM car_models cm
+        LEFT JOIN brands b ON b.id=cm.brand_id
+        LEFT JOIN model_colors mc ON mc.car_model_id=cm.id
+        LEFT JOIN paint_colors pc ON pc.id=mc.paint_color_id
+        LEFT JOIN providers p ON p.id=pc.provider_id
+        LEFT JOIN addresses a ON a.id=p.address_id
+        LEFT JOIN cities c ON c.id=a.city_id
+        LEFT JOIN countries co ON co.id=c.country_id
+        WHERE cm.id=#{id}
+        ]]>
+    </select>
+
+    <resultMap id="carModelResultMap" type="com.solvd.carfactory.models.car.CarModel" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="type" property="type"/>
+        <result column="year" property="year"/>
+        <result column="fuel_type" property="fuelType"/>
+        <result column="unitary_price" property="unitaryPrice"/>
+        <association property="brand"
+                     resultMap="com.solvd.carfactory.dao.IBrandDAO.brandResultMap"
+                     columnPrefix="brand_"/>
+        <collection property="paintColors"
+                    ofType="com.solvd.carfactory.models.supply.PaintColor"
+                    resultMap="com.solvd.carfactory.dao.IPaintColorDAO.paintColorResultMap"
+                    columnPrefix="paint_color_"/>
+    </resultMap>
+
+    <select id="getNestedCarModelById" resultMap="carModelNestedResultMap">
+        <![CDATA[
+        SELECT cm.id AS id,
+               cm.name AS name,
+               cm.type AS type,
+               cm.year AS year,
+               cm.fuel_type AS fuel_type,
+               cm.unitary_price AS unitary_price,
+               cm.brand_id AS brand_id,
+               pc.id as paint_color_id
+        FROM car_models cm
+        LEFT JOIN model_colors mc ON mc.car_model_id=cm.id
+        LEFT JOIN paint_colors pc ON pc.id=mc.paint_color_id
+        WHERE cm.id=#{id}
+        ]]>
+    </select>
+
+    <resultMap id="carModelNestedResultMap" type="com.solvd.carfactory.models.car.CarModel" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="type" property="type"/>
+        <result column="year" property="year"/>
+        <result column="fuel_type" property="fuelType"/>
+        <result column="unitary_price" property="unitaryPrice"/>
+        <association property="brand"
+                     column="brand_id"
+                     select="com.solvd.carfactory.dao.IBrandDAO.getItemById"/>
+        <collection property="paintColors"
+                    javaType="java.util.LinkedList"
+                    ofType="com.solvd.carfactory.models.supply.PaintColor"
+                    column="paint_color_id"
+                    select="com.solvd.carfactory.dao.IPaintColorDAO.getNestedPaintColorById"/>
+    </resultMap>
+
+</mapper>

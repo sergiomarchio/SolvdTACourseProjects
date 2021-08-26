@@ -52,4 +52,14 @@ public class CityDAO extends AbstractMysqlJdbcDAO<City> implements ICityDAO {
         ps.setString(1, item.getName());
         ps.setLong(2, item.getCountry().getId());
     }
+
+    @Override
+    public City getFullCityById(long id) {
+        return null;
+    }
+
+    @Override
+    public City getNestedCityById(long id) {
+        return null;
+    }
 }

@@ -18,6 +18,14 @@ public class Brand {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Brand{" +
+                "id:" + id +
+                ", name:'" + name + '\'' +
+                '}';
+    }
+
     public long getId() {
         return id;
     }

@@ -65,4 +65,14 @@ public class CarModelDAO extends AbstractMysqlJdbcDAO<CarModel> implements ICarM
         ps.setDouble(5, item.getUnitaryPrice());
         ps.setLong(6, item.getBrand().getId());
     }
+
+    @Override
+    public CarModel getFullCarModelById(long id) {
+        return null;
+    }
+
+    @Override
+    public CarModel getNestedCarModelById(long id) {
+        return null;
+    }
 }

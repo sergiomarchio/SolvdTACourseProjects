@@ -57,4 +57,9 @@ public class ProviderDAO extends AbstractMysqlJdbcDAO<Provider> implements IProv
         ps.setString(3, item.getPhone());
         ps.setLong(4, item.getAddress().getId());
     }
+
+    @Override
+    public Provider getNestedProviderById(long id) {
+        return null;
+    }
 }
